@@ -1,6 +1,321 @@
 {
+    "swiftformat-0_58_0-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_0-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-aSC43vY1p8yyB2u2XuQyZqUANXsrbrdKcGqJwpFiDyw=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.0/swiftformat.zip"
+        },
+        "version": "0.58.0"
+    },
+    "swiftformat-0_58_0-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_0-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-vrwfLQ5qPaE3+FRTQrQQgxbXw5svM1PDaddG0cpI0ts=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.0/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.58.0"
+    },
+    "swiftformat-0_58_0-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_0-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-Q+KodHqC7g6AYCi/qOc2iHnX4HAmxbYgyn6CASK2JBs=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.0/swiftformat_linux.zip"
+        },
+        "version": "0.58.0"
+    },
+    "swiftformat-0_58_1-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_1-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-4hfOdaChHkQhBwKNCfSjRGOr6mS4lOiB0URtnQhj8j4=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.1/swiftformat.zip"
+        },
+        "version": "0.58.1"
+    },
+    "swiftformat-0_58_1-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_1-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-uWkh+3PKl46yY2eNaYk1D1BvOd8HJKIzNn6tl7tiw0A=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.1/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.58.1"
+    },
+    "swiftformat-0_58_1-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_1-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-HvD4J0qibPMrlZFQSsJqizGNIMvUj0o4szgcFaTAjT0=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.1/swiftformat_linux.zip"
+        },
+        "version": "0.58.1"
+    },
+    "swiftformat-0_58_2-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_2-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-rPg/YBywiK9aH19pJ57EcKlqDDIvNj/m4/Hu4NpFJ1U=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.2/swiftformat.zip"
+        },
+        "version": "0.58.2"
+    },
+    "swiftformat-0_58_2-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_2-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-RkfloOkfHHZRIoE+NIYN761cx+0dpScsxh++FzkgbJY=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.2/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.58.2"
+    },
+    "swiftformat-0_58_2-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_2-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-R45b3gjsTcCaWTAikCsexB6hWCWenOkgi32QpUhssRs=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.2/swiftformat_linux.zip"
+        },
+        "version": "0.58.2"
+    },
+    "swiftformat-0_58_3-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_3-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-wmjldZ4IkfKZKdHxXWhAf0AXWiNkTyQ7FRz+XMutDYw=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.3/swiftformat.zip"
+        },
+        "version": "0.58.3"
+    },
+    "swiftformat-0_58_3-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_3-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-G8bRlrULXM9KzPY/K5lEMb209youNBxK3zerO059NsM=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.3/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.58.3"
+    },
+    "swiftformat-0_58_3-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_3-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-ApoB2yVc0yHqncknez5cKEn4MeOzKV2nU972R4m6qz0=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.3/swiftformat_linux.zip"
+        },
+        "version": "0.58.3"
+    },
+    "swiftformat-0_58_4-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_4-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-oarefBzHOI60rwDg1W2z2xmfFXuqReR5kAJDi00BRU4=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.4/swiftformat.zip"
+        },
+        "version": "0.58.4"
+    },
+    "swiftformat-0_58_4-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_4-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-CMApZLKB8EznnWdxXy51eCfvd4NG7aHcrGjCXHhKe/w=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.4/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.58.4"
+    },
+    "swiftformat-0_58_4-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_4-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-rud6cwH+OjgIk+t/sAvUizWmKHikKTYA6xczvfG1x9s=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.4/swiftformat_linux.zip"
+        },
+        "version": "0.58.4"
+    },
+    "swiftformat-0_58_5-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_5-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-49Weu7qzVn+fRg4tJJg+1E3jUb2AuetbPLFNBjF98Fw=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.5/swiftformat.zip"
+        },
+        "version": "0.58.5"
+    },
+    "swiftformat-0_58_5-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_5-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-Wdu34A91H4s+vTiEn+1IF4wyE+n8kQe80Rlh6IwuZpM=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.5/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.58.5"
+    },
+    "swiftformat-0_58_5-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_5-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-+UAqdzZX689sNEZPUB76wykQ9d3+WCdAp4FqK5Gco1c=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.5/swiftformat_linux.zip"
+        },
+        "version": "0.58.5"
+    },
+    "swiftformat-0_58_6-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_6-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-QrHgjT2/r5EiSyXfpnX9wx9stec/7oxYywpu5EyU3xg=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.6/swiftformat.zip"
+        },
+        "version": "0.58.6"
+    },
+    "swiftformat-0_58_6-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_6-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-4TZnm5K+YkW99N8lWAv5uhRKoySQWiV1MVoSCa0X7iw=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.6/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.58.6"
+    },
+    "swiftformat-0_58_6-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_58_6-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-SbF93JcnlUAf91rQ0bpdg2qQW5+49D8Y+QUB7pTpXj4=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.6/swiftformat_linux.zip"
+        },
+        "version": "0.58.6"
+    },
     "swiftformat-0_58_7-darwin": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "swiftformat-0_58_7-darwin",
@@ -15,7 +330,7 @@
         "version": "0.58.7"
     },
     "swiftformat-0_58_7-linux-aarch64": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "swiftformat-0_58_7-linux-aarch64",
@@ -30,7 +345,7 @@
         "version": "0.58.7"
     },
     "swiftformat-0_58_7-linux-x86_64": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "swiftformat-0_58_7-linux-x86_64",
@@ -44,8 +359,143 @@
         },
         "version": "0.58.7"
     },
+    "swiftformat-0_59_0-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_59_0-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-pYR9X544u3rP/g6lZTGaUhDmXXIOz2Ke/+ZoKOdyo4c=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.59.0/swiftformat.zip"
+        },
+        "version": "0.59.0"
+    },
+    "swiftformat-0_59_0-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_59_0-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-2+1oBdOQ060ffW2JAtyVCJJrHBuTW4oJ0xr+tirp9NI=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.59.0/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.59.0"
+    },
+    "swiftformat-0_59_0-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_59_0-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-ZGlfs5vg2KMoD0aL6jRlK9H3rkILSwQG7lbXtrDtX7E=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.59.0/swiftformat_linux.zip"
+        },
+        "version": "0.59.0"
+    },
+    "swiftformat-0_59_1-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_59_1-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-i2KJtgikTnPNOFHDWJ29fFU/MsyAWqVLOkls4rkP6+c=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.59.1/swiftformat.zip"
+        },
+        "version": "0.59.1"
+    },
+    "swiftformat-0_59_1-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_59_1-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-xVzqNUPdhIiGPRQTL6Z323ZcjwrVpuYYTPgiymJrsds=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.59.1/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.59.1"
+    },
+    "swiftformat-0_59_1-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_59_1-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-FQ2Wk1cM8jTskdigO6cWW9NqeDNcXkDtkeTAE6SS61Q=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.59.1/swiftformat_linux.zip"
+        },
+        "version": "0.59.1"
+    },
+    "swiftformat-0_60_0-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_60_0-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-j+mq7AM/yZTL8HNm7v+tKWNgHRoOl1R0VGpgbq1uWjk=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.60.0/swiftformat.zip"
+        },
+        "version": "0.60.0"
+    },
+    "swiftformat-0_60_0-linux-aarch64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_60_0-linux-aarch64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-vwT1gfVkNuF9x4t9SrXWiQqYOmpN32AVao6oHl18984=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.60.0/swiftformat_linux_aarch64.zip"
+        },
+        "version": "0.60.0"
+    },
+    "swiftformat-0_60_0-linux-x86_64": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "swiftformat-0_60_0-linux-x86_64",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-7IBNETZiBfge0njoUtYV2SFvacD4D+ef5neR5l1G4Bo=",
+            "type": "url",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.60.0/swiftformat_linux.zip"
+        },
+        "version": "0.60.0"
+    },
     "swiftformat-0_60_1-darwin": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "swiftformat-0_60_1-darwin",
@@ -60,7 +510,7 @@
         "version": "0.60.1"
     },
     "swiftformat-0_60_1-linux-aarch64": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "swiftformat-0_60_1-linux-aarch64",
@@ -75,7 +525,7 @@
         "version": "0.60.1"
     },
     "swiftformat-0_60_1-linux-x86_64": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "swiftformat-0_60_1-linux-x86_64",

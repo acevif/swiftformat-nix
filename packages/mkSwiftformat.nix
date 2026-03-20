@@ -1,17 +1,17 @@
-{ stdenv, lib, unzip, autoPatchelfHook, sources }:
+{ stdenv, lib, unzip, autoPatchelfHook, sources, versionId }:
 
 let
   src =
     if stdenv.isDarwin then
-      sources.swiftformat-0_58_7-darwin.src
+      sources."swiftformat-${versionId}-darwin".src
     else if stdenv.isLinux && stdenv.hostPlatform.isAarch64 then
-      sources.swiftformat-0_58_7-linux-aarch64.src
+      sources."swiftformat-${versionId}-linux-aarch64".src
     else if stdenv.isLinux && stdenv.hostPlatform.isx86_64 then
-      sources.swiftformat-0_58_7-linux-x86_64.src
+      sources."swiftformat-${versionId}-linux-x86_64".src
     else
       throw "Unsupported platform: ${stdenv.hostPlatform.system}";
 
-  version = sources.swiftformat-0_58_7-darwin.version;
+  version = sources."swiftformat-${versionId}-darwin".version;
 in
 stdenv.mkDerivation {
   pname = "swiftformat";
