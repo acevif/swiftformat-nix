@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(nix develop -c nvfetcher)",
+      "Bash(nix develop --command nvfetcher)",
+      "WebSearch",
+      "WebFetch(domain:github.com)"
+    ],
+    "ask": [
+      "Bash(git push:*)"
+    ]
+  }
+}
