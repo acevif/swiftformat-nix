@@ -19,6 +19,25 @@ Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages fo
 - `swiftformat_0_57_2` — SwiftFormat 0.57.2
 - `swiftformat_0_57_1` — SwiftFormat 0.57.1
 - `swiftformat_0_57_0` — SwiftFormat 0.57.0
+- `swiftformat_0_56_4` — SwiftFormat 0.56.4
+- `swiftformat_0_56_3` — SwiftFormat 0.56.3
+- `swiftformat_0_56_2` — SwiftFormat 0.56.2
+- `swiftformat_0_56_1` — SwiftFormat 0.56.1
+- `swiftformat_0_56_0` — SwiftFormat 0.56.0
+- `swiftformat_0_55_6` — SwiftFormat 0.55.6
+- `swiftformat_0_55_5` — SwiftFormat 0.55.5 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_55_4` — SwiftFormat 0.55.4 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_55_3` — SwiftFormat 0.55.3 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_55_2` — SwiftFormat 0.55.2 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_55_1` — SwiftFormat 0.55.1 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_55_0` — SwiftFormat 0.55.0 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_54_6` — SwiftFormat 0.54.6 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_54_5` — SwiftFormat 0.54.5 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_54_4` — SwiftFormat 0.54.4 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_54_3` — SwiftFormat 0.54.3 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_54_2` — SwiftFormat 0.54.2 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_54_1` — SwiftFormat 0.54.1 ([not available on `aarch64-linux`](#aarch64-linux-note))
+- `swiftformat_0_54_0` — SwiftFormat 0.54.0 ([not available on `aarch64-linux`](#aarch64-linux-note))
 
 ### Aliases
 
@@ -26,10 +45,19 @@ Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages fo
 - `swiftformat_0_59` — 0.59.x latest
 - `swiftformat_0_58` — 0.58.x latest
 - `swiftformat_0_57` — 0.57.x latest
+- `swiftformat_0_56` — 0.56.x latest
+- `swiftformat_0_55` — 0.55.x latest
+- `swiftformat_0_54` — 0.54.x latest ([not available on `aarch64-linux`](#aarch64-linux-note))
 - `swiftformat` — latest
 - `default` — latest
 
-**Supported platforms**: `x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`
+### Supported Platforms
+
+Packages are provided for `x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, and `aarch64-darwin`. [Older versions have limited platform support.](#aarch64-linux-note)
+
+#### aarch64-linux note
+
+Versions 0.55.5 and earlier are not available on `aarch64-linux` because upstream does not provide an `aarch64-linux` binary.
 
 ## Usage
 

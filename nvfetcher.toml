@@ -1,3 +1,179 @@
+[swiftformat-0_54_0-darwin]
+src.manual = "0.54.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_54_0-linux-x86_64]
+src.manual = "0.54.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_54_1-darwin]
+src.manual = "0.54.1"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_54_1-linux-x86_64]
+src.manual = "0.54.1"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_54_2-darwin]
+src.manual = "0.54.2"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_54_2-linux-x86_64]
+src.manual = "0.54.2"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_54_3-darwin]
+src.manual = "0.54.3"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_54_3-linux-x86_64]
+src.manual = "0.54.3"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_54_4-darwin]
+src.manual = "0.54.4"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_54_4-linux-x86_64]
+src.manual = "0.54.4"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_54_5-darwin]
+src.manual = "0.54.5"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_54_5-linux-x86_64]
+src.manual = "0.54.5"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_54_6-darwin]
+src.manual = "0.54.6"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_54_6-linux-x86_64]
+src.manual = "0.54.6"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_55_0-darwin]
+src.manual = "0.55.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_55_0-linux-x86_64]
+src.manual = "0.55.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_55_1-darwin]
+src.manual = "0.55.1"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_55_1-linux-x86_64]
+src.manual = "0.55.1"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_55_2-darwin]
+src.manual = "0.55.2"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_55_2-linux-x86_64]
+src.manual = "0.55.2"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_55_3-darwin]
+src.manual = "0.55.3"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_55_3-linux-x86_64]
+src.manual = "0.55.3"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_55_4-darwin]
+src.manual = "0.55.4"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_55_4-linux-x86_64]
+src.manual = "0.55.4"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_55_5-darwin]
+src.manual = "0.55.5"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_55_5-linux-x86_64]
+src.manual = "0.55.5"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_55_6-darwin]
+src.manual = "0.55.6"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_55_6-linux-x86_64]
+src.manual = "0.55.6"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_55_6-linux-aarch64]
+src.manual = "0.55.6"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux_aarch64.zip"
+
+[swiftformat-0_56_0-darwin]
+src.manual = "0.56.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_56_0-linux-x86_64]
+src.manual = "0.56.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_56_0-linux-aarch64]
+src.manual = "0.56.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux_aarch64.zip"
+
+[swiftformat-0_56_1-darwin]
+src.manual = "0.56.1"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_56_1-linux-x86_64]
+src.manual = "0.56.1"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_56_1-linux-aarch64]
+src.manual = "0.56.1"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux_aarch64.zip"
+
+[swiftformat-0_56_2-darwin]
+src.manual = "0.56.2"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_56_2-linux-x86_64]
+src.manual = "0.56.2"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_56_2-linux-aarch64]
+src.manual = "0.56.2"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux_aarch64.zip"
+
+[swiftformat-0_56_3-darwin]
+src.manual = "0.56.3"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_56_3-linux-x86_64]
+src.manual = "0.56.3"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_56_3-linux-aarch64]
+src.manual = "0.56.3"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux_aarch64.zip"
+
+[swiftformat-0_56_4-darwin]
+src.manual = "0.56.4"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_56_4-linux-x86_64]
+src.manual = "0.56.4"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_56_4-linux-aarch64]
+src.manual = "0.56.4"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux_aarch64.zip"
+
 [swiftformat-0_57_0-darwin]
 src.manual = "0.57.0"
 fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
