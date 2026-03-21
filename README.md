@@ -1,6 +1,6 @@
 # swiftformat-nix
 
-Versioned SwiftFormat packages for Nix.
+Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/).
 
 ## Available Packages
 
