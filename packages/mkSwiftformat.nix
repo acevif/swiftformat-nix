@@ -1,6 +1,8 @@
-{ stdenv, lib, unzip, autoPatchelfHook, sources, versionId }:
+{ pkgs, stdenv, lib, unzip, autoPatchelfHook, versionId, platforms }:
 
 let
+  sources = pkgs.callPackage ./_sources/generated.nix { };
+
   src =
     if stdenv.isDarwin then
       sources."swiftformat-${versionId}-darwin".src
@@ -31,7 +33,7 @@ stdenv.mkDerivation {
     description = "A command-line tool for formatting Swift code";
     homepage = "https://github.com/nicklockwood/SwiftFormat";
     license = licenses.mit;
-    platforms = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
+    inherit platforms;
     mainProgram = "swiftformat";
   };
 }

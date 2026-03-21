@@ -5,7 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # Regenerate hashes
-nix develop --command nvfetcher
+nix develop --command nvfetcher -c packages/nvfetcher.toml -o packages/_sources
 
 # Validate all platforms
 nix flake check --all-systems
@@ -19,8 +19,8 @@ nix build .#swiftformat_X_Y_Z
 The primary task in this repository is packaging new SwiftFormat releases.
 
 1. Check available releases: `gh release list --repo nicklockwood/SwiftFormat`
-2. Add 3 entries to `nvfetcher.toml` (darwin, linux-x86_64, linux-aarch64)
-3. Regenerate `_sources/`: `nix develop --command nvfetcher`
+2. Add 3 entries to `packages/nvfetcher.toml` (darwin, linux-x86_64, linux-aarch64)
+3. Regenerate `packages/_sources/`: `nix develop --command nvfetcher -c packages/nvfetcher.toml -o packages/_sources`
 4. Add the package to `flake.nix` and update aliases
 5. Update `README.md`
 6. Validate all platforms: `nix flake check --all-systems`
@@ -41,4 +41,4 @@ Follow [Conventional Commits](https://www.conventionalcommits.org/).
 
 ## Notes
 
-- Do not manually edit files under `_sources/` — managed by nvfetcher
+- Do not manually edit files under `packages/_sources/` — managed by nvfetcher
