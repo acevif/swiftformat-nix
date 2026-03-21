@@ -6,6 +6,1446 @@
   dockerTools,
 }:
 {
+  swiftformat-0_47_10-darwin = {
+    pname = "swiftformat-0_47_10-darwin";
+    version = "0.47.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.10/swiftformat.zip";
+      sha256 = "sha256-v/YRWvNK8pvtDZOmc1IH7Ga4Ydom/tESFDdGxrYDyws=";
+    };
+  };
+  swiftformat-0_47_11-darwin = {
+    pname = "swiftformat-0_47_11-darwin";
+    version = "0.47.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.11/swiftformat.zip";
+      sha256 = "sha256-Co7Vgbeduh3et5bgqkWG/bfJsbBfqT0hPgfzBEKcUHA=";
+    };
+  };
+  swiftformat-0_47_12-darwin = {
+    pname = "swiftformat-0_47_12-darwin";
+    version = "0.47.12";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.12/swiftformat.zip";
+      sha256 = "sha256-I0Jp9nNkv9x9XS4Ezn9b0jCz7MDHagtWq9bmx8RNIu8=";
+    };
+  };
+  swiftformat-0_47_13-darwin = {
+    pname = "swiftformat-0_47_13-darwin";
+    version = "0.47.13";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.13/swiftformat.zip";
+      sha256 = "sha256-TIxQUbS5UeE4uu4WTD8KsH5euFv6zYVCWYRsZtf31m0=";
+    };
+  };
+  swiftformat-0_47_4-darwin = {
+    pname = "swiftformat-0_47_4-darwin";
+    version = "0.47.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.4/swiftformat.zip";
+      sha256 = "sha256-b4N8mnLm5agf9tu/AXD8YIGDoXfltwjt83gH/5JAhuc=";
+    };
+  };
+  swiftformat-0_47_5-darwin = {
+    pname = "swiftformat-0_47_5-darwin";
+    version = "0.47.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.5/swiftformat.zip";
+      sha256 = "sha256-ieecHd2Gwh+KKeKnaCFZeCDeGjAUsWyBJz+z9KIYEp4=";
+    };
+  };
+  swiftformat-0_47_6-darwin = {
+    pname = "swiftformat-0_47_6-darwin";
+    version = "0.47.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.6/swiftformat.zip";
+      sha256 = "sha256-8vFC5AXO1VIBLnm1KmB/RxuOrV7tC3VSQHIw1huTpwM=";
+    };
+  };
+  swiftformat-0_47_7-darwin = {
+    pname = "swiftformat-0_47_7-darwin";
+    version = "0.47.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.7/swiftformat.zip";
+      sha256 = "sha256-RqrbdOYKM1hJwK5bUKA5b9bSn9jp4zCHP95wVvdZrho=";
+    };
+  };
+  swiftformat-0_47_8-darwin = {
+    pname = "swiftformat-0_47_8-darwin";
+    version = "0.47.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.8/swiftformat.zip";
+      sha256 = "sha256-lxI3gbZ5jpiRaWhT/qByZwDE7kQEmkI2VViDrypOWVQ=";
+    };
+  };
+  swiftformat-0_47_9-darwin = {
+    pname = "swiftformat-0_47_9-darwin";
+    version = "0.47.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.9/swiftformat.zip";
+      sha256 = "sha256-MclO+b5eYsRzwGseTU/lUUHL7dtPjcOTSdZ11kJECBU=";
+    };
+  };
+  swiftformat-0_48_0-darwin = {
+    pname = "swiftformat-0_48_0-darwin";
+    version = "0.48.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.0/swiftformat.zip";
+      sha256 = "sha256-DP+b7ylu2FzVBxTe5WxP5hk6eO5C8ul5HjGtdcB2nM8=";
+    };
+  };
+  swiftformat-0_48_1-darwin = {
+    pname = "swiftformat-0_48_1-darwin";
+    version = "0.48.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.1/swiftformat.zip";
+      sha256 = "sha256-68nXHuRAdN3/QkuxzwXZA2ODa5aKb93c/RZU2kafpWw=";
+    };
+  };
+  swiftformat-0_48_1-linux-x86_64 = {
+    pname = "swiftformat-0_48_1-linux-x86_64";
+    version = "0.48.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.1/swiftformat_linux.zip";
+      sha256 = "sha256-o74/P1BCe7SyOyTaNaiqyncwj/YEZIyy60FOiupWzBo=";
+    };
+  };
+  swiftformat-0_48_10-darwin = {
+    pname = "swiftformat-0_48_10-darwin";
+    version = "0.48.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.10/swiftformat.zip";
+      sha256 = "sha256-9uLIWN99ANp3jPSVmCntdkQCmG7qFbOrKV5Sah4r3TQ=";
+    };
+  };
+  swiftformat-0_48_10-linux-x86_64 = {
+    pname = "swiftformat-0_48_10-linux-x86_64";
+    version = "0.48.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.10/swiftformat_linux.zip";
+      sha256 = "sha256-ThYC2Szh4G9BYaNCMisic3kadsXT0EgS9bc5jUd5dWc=";
+    };
+  };
+  swiftformat-0_48_11-darwin = {
+    pname = "swiftformat-0_48_11-darwin";
+    version = "0.48.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.11/swiftformat.zip";
+      sha256 = "sha256-KrLL+/g6ZaVPqWqkKZffb3sykVXJ9oMRSgmNGq5WgaE=";
+    };
+  };
+  swiftformat-0_48_11-linux-x86_64 = {
+    pname = "swiftformat-0_48_11-linux-x86_64";
+    version = "0.48.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.11/swiftformat_linux.zip";
+      sha256 = "sha256-nVAYe4/RWZbwLzPpYvZ2bQe9S78i0AGyb5RjUziDSgs=";
+    };
+  };
+  swiftformat-0_48_12-darwin = {
+    pname = "swiftformat-0_48_12-darwin";
+    version = "0.48.12";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.12/swiftformat.zip";
+      sha256 = "sha256-HhcrWhl+muPGnRtDqYbcal85poPu+aBuIio1poNZ4P8=";
+    };
+  };
+  swiftformat-0_48_12-linux-x86_64 = {
+    pname = "swiftformat-0_48_12-linux-x86_64";
+    version = "0.48.12";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.12/swiftformat_linux.zip";
+      sha256 = "sha256-iYPb3jGXe4qp5BGQD3yt8OAJh/RLMkkdOedi0bpU3UA=";
+    };
+  };
+  swiftformat-0_48_13-darwin = {
+    pname = "swiftformat-0_48_13-darwin";
+    version = "0.48.13";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.13/swiftformat.zip";
+      sha256 = "sha256-nSe3lUecz72WBdg1nm7CyZY9teW2Bu7eCL5blLhpcog=";
+    };
+  };
+  swiftformat-0_48_13-linux-x86_64 = {
+    pname = "swiftformat-0_48_13-linux-x86_64";
+    version = "0.48.13";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.13/swiftformat_linux.zip";
+      sha256 = "sha256-1FObH0KnS6ij1ZCmVeVEUE+xSK6ILYMUhL13aR+59CE=";
+    };
+  };
+  swiftformat-0_48_14-darwin = {
+    pname = "swiftformat-0_48_14-darwin";
+    version = "0.48.14";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.14/swiftformat.zip";
+      sha256 = "sha256-0jhYxwq4SBr7/SK9GWFxexA/oyO2IOl2s5Rq7NdBC4Q=";
+    };
+  };
+  swiftformat-0_48_14-linux-x86_64 = {
+    pname = "swiftformat-0_48_14-linux-x86_64";
+    version = "0.48.14";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.14/swiftformat_linux.zip";
+      sha256 = "sha256-WZaAPfI8bO/eXYpipaOm4ICjtHOjLXVxO9dP6FPmIbk=";
+    };
+  };
+  swiftformat-0_48_15-darwin = {
+    pname = "swiftformat-0_48_15-darwin";
+    version = "0.48.15";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.15/swiftformat.zip";
+      sha256 = "sha256-MOyY24ry+/z8ydb7ffSA6E2NIx0Hu7uaOvED/0gfqz0=";
+    };
+  };
+  swiftformat-0_48_15-linux-x86_64 = {
+    pname = "swiftformat-0_48_15-linux-x86_64";
+    version = "0.48.15";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.15/swiftformat_linux.zip";
+      sha256 = "sha256-A/prqmukEh935Twu1GNPB/qxoZmoNd4Wb++dGVrqQJ8=";
+    };
+  };
+  swiftformat-0_48_16-darwin = {
+    pname = "swiftformat-0_48_16-darwin";
+    version = "0.48.16";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.16/swiftformat.zip";
+      sha256 = "sha256-Ej0QxyVsNRf6G/FUDRjT0vMUirGC2yojGguT70nxZk4=";
+    };
+  };
+  swiftformat-0_48_16-linux-x86_64 = {
+    pname = "swiftformat-0_48_16-linux-x86_64";
+    version = "0.48.16";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.16/swiftformat_linux.zip";
+      sha256 = "sha256-7GeP/6Q25Xjvn4oxLqY9h/E0UhDg+EmavSYhK/eWJic=";
+    };
+  };
+  swiftformat-0_48_17-darwin = {
+    pname = "swiftformat-0_48_17-darwin";
+    version = "0.48.17";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.17/swiftformat.zip";
+      sha256 = "sha256-1SMI8QesIXgfk+TruapZuzxs9EZmWhkEcAsKonAGpdw=";
+    };
+  };
+  swiftformat-0_48_17-linux-x86_64 = {
+    pname = "swiftformat-0_48_17-linux-x86_64";
+    version = "0.48.17";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.17/swiftformat_linux.zip";
+      sha256 = "sha256-tT5hW3rkrDqUncFmTHrfGW+IHTYQnh4hMSQdowA20to=";
+    };
+  };
+  swiftformat-0_48_18-darwin = {
+    pname = "swiftformat-0_48_18-darwin";
+    version = "0.48.18";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.18/swiftformat.zip";
+      sha256 = "sha256-cxYvMJHkSwaX1BAQ4oqG3/2TXNC5J94uICqpQ9L+kM0=";
+    };
+  };
+  swiftformat-0_48_18-linux-x86_64 = {
+    pname = "swiftformat-0_48_18-linux-x86_64";
+    version = "0.48.18";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.18/swiftformat_linux.zip";
+      sha256 = "sha256-V9y9cDJMcmzw8My+vuBGJsk+oPtXaW/bffwwdHnHckg=";
+    };
+  };
+  swiftformat-0_48_2-darwin = {
+    pname = "swiftformat-0_48_2-darwin";
+    version = "0.48.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.2/swiftformat.zip";
+      sha256 = "sha256-6HNjThftHzOCS9vAmfesnb3e7m0YDdCBWZzVlFI1y00=";
+    };
+  };
+  swiftformat-0_48_2-linux-x86_64 = {
+    pname = "swiftformat-0_48_2-linux-x86_64";
+    version = "0.48.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.2/swiftformat_linux.zip";
+      sha256 = "sha256-BPbKzBskZBVE12Bkfjmjh/OfMw1bgbs/UyqK6Uh2VWA=";
+    };
+  };
+  swiftformat-0_48_3-darwin = {
+    pname = "swiftformat-0_48_3-darwin";
+    version = "0.48.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.3/swiftformat.zip";
+      sha256 = "sha256-1vJ5HiWcUDMVlGV+ipV444o1YwM27W1EzLtmRjqTDy8=";
+    };
+  };
+  swiftformat-0_48_3-linux-x86_64 = {
+    pname = "swiftformat-0_48_3-linux-x86_64";
+    version = "0.48.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.3/swiftformat_linux.zip";
+      sha256 = "sha256-sr0nmlpP1KHUoMqX7jJiBjk7bMYEb789lgGaM/dozHg=";
+    };
+  };
+  swiftformat-0_48_4-darwin = {
+    pname = "swiftformat-0_48_4-darwin";
+    version = "0.48.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.4/swiftformat.zip";
+      sha256 = "sha256-ptb8cI/4Ua3htsoEeMhLo3CGdj/49XfsaNfbI1KYYcU=";
+    };
+  };
+  swiftformat-0_48_4-linux-x86_64 = {
+    pname = "swiftformat-0_48_4-linux-x86_64";
+    version = "0.48.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.4/swiftformat_linux.zip";
+      sha256 = "sha256-BE/ljhlG07oFfL1LIqEi8ka2A0q9VttE/XZaxa38I7o=";
+    };
+  };
+  swiftformat-0_48_5-darwin = {
+    pname = "swiftformat-0_48_5-darwin";
+    version = "0.48.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.5/swiftformat.zip";
+      sha256 = "sha256-vV34V0m/W3QC9xi946YisX5+TXQOKwbp89Nwq/WhAAc=";
+    };
+  };
+  swiftformat-0_48_5-linux-x86_64 = {
+    pname = "swiftformat-0_48_5-linux-x86_64";
+    version = "0.48.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.5/swiftformat_linux.zip";
+      sha256 = "sha256-vL9P/yyX2cpPwz6jDISCYs2xPJJSOEupJ/RXPSp2Sog=";
+    };
+  };
+  swiftformat-0_48_6-darwin = {
+    pname = "swiftformat-0_48_6-darwin";
+    version = "0.48.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.6/swiftformat.zip";
+      sha256 = "sha256-GigWkwSXzz9bJJcuorXTnMIFLGTkN8yQtvW53f/2YTE=";
+    };
+  };
+  swiftformat-0_48_6-linux-x86_64 = {
+    pname = "swiftformat-0_48_6-linux-x86_64";
+    version = "0.48.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.6/swiftformat_linux.zip";
+      sha256 = "sha256-oakmPdSL0KR0xWew2b9yUeCprQaU5m3mQl+3K69j8AM=";
+    };
+  };
+  swiftformat-0_48_7-darwin = {
+    pname = "swiftformat-0_48_7-darwin";
+    version = "0.48.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.7/swiftformat.zip";
+      sha256 = "sha256-cuKz2bxViE6gNctdsCC0w0wMPdQxRqs/fzF8QnjZaOw=";
+    };
+  };
+  swiftformat-0_48_7-linux-x86_64 = {
+    pname = "swiftformat-0_48_7-linux-x86_64";
+    version = "0.48.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.7/swiftformat_linux.zip";
+      sha256 = "sha256-N4LiPNmvkzHhWypAar85+Y3vmpqiHvDzbB1YefkzRk8=";
+    };
+  };
+  swiftformat-0_48_8-darwin = {
+    pname = "swiftformat-0_48_8-darwin";
+    version = "0.48.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.8/swiftformat.zip";
+      sha256 = "sha256-0TgsQ8C8blXLBV0c0+q+qg9TKiLmHvU6UpiOLum1nDU=";
+    };
+  };
+  swiftformat-0_48_8-linux-x86_64 = {
+    pname = "swiftformat-0_48_8-linux-x86_64";
+    version = "0.48.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.8/swiftformat_linux.zip";
+      sha256 = "sha256-IKPdCOH4gND7IELYqNsZBOrvE/vQdsEYHnu0lEe131A=";
+    };
+  };
+  swiftformat-0_48_9-darwin = {
+    pname = "swiftformat-0_48_9-darwin";
+    version = "0.48.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.9/swiftformat.zip";
+      sha256 = "sha256-G4ET6ikb0LADK1m9fzWdmxqzrpW+Viu0GhKCh0LSUmM=";
+    };
+  };
+  swiftformat-0_48_9-linux-x86_64 = {
+    pname = "swiftformat-0_48_9-linux-x86_64";
+    version = "0.48.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.9/swiftformat_linux.zip";
+      sha256 = "sha256-Qx8hKuGij16zeB1ef4lBZJRn5Uio26mYwv+/qHp1gnk=";
+    };
+  };
+  swiftformat-0_49_0-darwin = {
+    pname = "swiftformat-0_49_0-darwin";
+    version = "0.49.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.0/swiftformat.zip";
+      sha256 = "sha256-RLYAN0GWJ+ej5lVDcVqytGyzjbgwes+FYu8dJYikC6U=";
+    };
+  };
+  swiftformat-0_49_0-linux-x86_64 = {
+    pname = "swiftformat-0_49_0-linux-x86_64";
+    version = "0.49.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.0/swiftformat_linux.zip";
+      sha256 = "sha256-dDWRFO5A5ZapuU59m3Y8nJsT7h2Ej64SUw7hJQrnurU=";
+    };
+  };
+  swiftformat-0_49_1-darwin = {
+    pname = "swiftformat-0_49_1-darwin";
+    version = "0.49.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.1/swiftformat.zip";
+      sha256 = "sha256-SE0lgVEJUVW2ajIoNleHxf4zff9bitMUBahWxRs//vk=";
+    };
+  };
+  swiftformat-0_49_1-linux-x86_64 = {
+    pname = "swiftformat-0_49_1-linux-x86_64";
+    version = "0.49.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.1/swiftformat_linux.zip";
+      sha256 = "sha256-dsOz4oBrKLlRjmXUldcFnTclSy91ru9V8apwsJZ0Naw=";
+    };
+  };
+  swiftformat-0_49_10-darwin = {
+    pname = "swiftformat-0_49_10-darwin";
+    version = "0.49.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.10/swiftformat.zip";
+      sha256 = "sha256-z5RWIKXcKBC0BiAz8Pk8WBhKGgTCfJ7re/q6YMW3T5U=";
+    };
+  };
+  swiftformat-0_49_10-linux-x86_64 = {
+    pname = "swiftformat-0_49_10-linux-x86_64";
+    version = "0.49.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.10/swiftformat_linux.zip";
+      sha256 = "sha256-tjFjBloicNPydVr1PuOpp5fY2rqagTOMifaq/tXHWGs=";
+    };
+  };
+  swiftformat-0_49_11-darwin = {
+    pname = "swiftformat-0_49_11-darwin";
+    version = "0.49.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.11/swiftformat.zip";
+      sha256 = "sha256-kj6G7KerkjW9r2aoxNlXRNBak50J+BO9g1ocG3ldoO8=";
+    };
+  };
+  swiftformat-0_49_11-linux-x86_64 = {
+    pname = "swiftformat-0_49_11-linux-x86_64";
+    version = "0.49.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.11/swiftformat_linux.zip";
+      sha256 = "sha256-+OzOZfZ8vE6FXSpQjhKCAYzXQn8ra8M8g6NBbCJyM7Q=";
+    };
+  };
+  swiftformat-0_49_12-darwin = {
+    pname = "swiftformat-0_49_12-darwin";
+    version = "0.49.12";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.12/swiftformat.zip";
+      sha256 = "sha256-PGA2GQShAyosd4fSQ1/4Ko6/bZcUpYySpXfSZ2IhjNg=";
+    };
+  };
+  swiftformat-0_49_12-linux-x86_64 = {
+    pname = "swiftformat-0_49_12-linux-x86_64";
+    version = "0.49.12";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.12/swiftformat_linux.zip";
+      sha256 = "sha256-AWx5hjPQOOUdSXIg0+hKcN3RKkjBu5Sv62z69w7qkZg=";
+    };
+  };
+  swiftformat-0_49_13-darwin = {
+    pname = "swiftformat-0_49_13-darwin";
+    version = "0.49.13";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.13/swiftformat.zip";
+      sha256 = "sha256-+Va0erwD/NlJ4dvnX8sD3bc0vTNmu4tngDks3sLJkTE=";
+    };
+  };
+  swiftformat-0_49_13-linux-x86_64 = {
+    pname = "swiftformat-0_49_13-linux-x86_64";
+    version = "0.49.13";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.13/swiftformat_linux.zip";
+      sha256 = "sha256-hIr0afpYVywQSz9BwwchH1jDGFRMge34lWlnf0FZ9G4=";
+    };
+  };
+  swiftformat-0_49_14-darwin = {
+    pname = "swiftformat-0_49_14-darwin";
+    version = "0.49.14";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.14/swiftformat.zip";
+      sha256 = "sha256-m9CVP0ZNRNvkOPUzhe/U1QwSLGctviDievKmfZW9iVo=";
+    };
+  };
+  swiftformat-0_49_14-linux-x86_64 = {
+    pname = "swiftformat-0_49_14-linux-x86_64";
+    version = "0.49.14";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.14/swiftformat_linux.zip";
+      sha256 = "sha256-Wk8XJ38OK/X0Qlbn42Cq00+DOQaiRBDdfK2fPjDaY6Q=";
+    };
+  };
+  swiftformat-0_49_15-darwin = {
+    pname = "swiftformat-0_49_15-darwin";
+    version = "0.49.15";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.15/swiftformat.zip";
+      sha256 = "sha256-DNmf8enCkyeusXB4qLkDfRctPVj6JR8jl0SKJWOqObY=";
+    };
+  };
+  swiftformat-0_49_15-linux-x86_64 = {
+    pname = "swiftformat-0_49_15-linux-x86_64";
+    version = "0.49.15";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.15/swiftformat_linux.zip";
+      sha256 = "sha256-33W+YK+UvlLxPNsOWzySRRwtI8dJEK2keUE5IFh+lFY=";
+    };
+  };
+  swiftformat-0_49_16-darwin = {
+    pname = "swiftformat-0_49_16-darwin";
+    version = "0.49.16";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.16/swiftformat.zip";
+      sha256 = "sha256-p5erhNz3DTblLZ29TB6CxUngk9DhKdlsMHBmBZOigCc=";
+    };
+  };
+  swiftformat-0_49_16-linux-x86_64 = {
+    pname = "swiftformat-0_49_16-linux-x86_64";
+    version = "0.49.16";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.16/swiftformat_linux.zip";
+      sha256 = "sha256-5nzn7OJaycd514aT0NlkmJP/uvBvzCwf707AJbIHaL0=";
+    };
+  };
+  swiftformat-0_49_17-darwin = {
+    pname = "swiftformat-0_49_17-darwin";
+    version = "0.49.17";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.17/swiftformat.zip";
+      sha256 = "sha256-l46v/cNxa7wIWa7O4Ng4dc86uNhyV3lEjwA1MJ2a2fM=";
+    };
+  };
+  swiftformat-0_49_17-linux-x86_64 = {
+    pname = "swiftformat-0_49_17-linux-x86_64";
+    version = "0.49.17";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.17/swiftformat_linux.zip";
+      sha256 = "sha256-9igTmAwoSMsZQfFFaioGJRwuIyMYNiN2CSIFi5jHB0U=";
+    };
+  };
+  swiftformat-0_49_18-darwin = {
+    pname = "swiftformat-0_49_18-darwin";
+    version = "0.49.18";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.18/swiftformat.zip";
+      sha256 = "sha256-+FqpgdYL0aQDUsZwtDi0Xct8feaGG/2ZszEmtLTOcH0=";
+    };
+  };
+  swiftformat-0_49_18-linux-x86_64 = {
+    pname = "swiftformat-0_49_18-linux-x86_64";
+    version = "0.49.18";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.18/swiftformat_linux.zip";
+      sha256 = "sha256-HBOsid+PJ7lc2uky/8QqCWsD+XI1rYdywpzZ6pbTQg4=";
+    };
+  };
+  swiftformat-0_49_2-darwin = {
+    pname = "swiftformat-0_49_2-darwin";
+    version = "0.49.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.2/swiftformat.zip";
+      sha256 = "sha256-r3HY2SuPOZboOym1ao2jnyGLgP5+3zv7ESVfVT179cw=";
+    };
+  };
+  swiftformat-0_49_2-linux-x86_64 = {
+    pname = "swiftformat-0_49_2-linux-x86_64";
+    version = "0.49.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.2/swiftformat_linux.zip";
+      sha256 = "sha256-LXPualzkz/DPx7ayAoPnpoquZrOD/8vs29ZrDd5daWs=";
+    };
+  };
+  swiftformat-0_49_3-darwin = {
+    pname = "swiftformat-0_49_3-darwin";
+    version = "0.49.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.3/swiftformat.zip";
+      sha256 = "sha256-vJScy4LCUBBNpuJsxcaGw2ISKwnSZQwPuDORq3Vgfec=";
+    };
+  };
+  swiftformat-0_49_3-linux-x86_64 = {
+    pname = "swiftformat-0_49_3-linux-x86_64";
+    version = "0.49.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.3/swiftformat_linux.zip";
+      sha256 = "sha256-bmqlhCIwT1rdaYLryzABPHoZZeSzvfYO4neujeq2Nhk=";
+    };
+  };
+  swiftformat-0_49_4-darwin = {
+    pname = "swiftformat-0_49_4-darwin";
+    version = "0.49.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.4/swiftformat.zip";
+      sha256 = "sha256-WdXVcVTbrP0YNmXoleUQxN5RE0LOauQONYhOED3oUas=";
+    };
+  };
+  swiftformat-0_49_4-linux-x86_64 = {
+    pname = "swiftformat-0_49_4-linux-x86_64";
+    version = "0.49.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.4/swiftformat_linux.zip";
+      sha256 = "sha256-4tomWYlcWDXbNEbIUn20Zj2V7m4EBHkjOdpC+PGWgA8=";
+    };
+  };
+  swiftformat-0_49_5-darwin = {
+    pname = "swiftformat-0_49_5-darwin";
+    version = "0.49.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.5/swiftformat.zip";
+      sha256 = "sha256-DPqo5jnzpAg8Rn5VP10eh6IzzsnxfwbCpFK94Nz0sRM=";
+    };
+  };
+  swiftformat-0_49_5-linux-x86_64 = {
+    pname = "swiftformat-0_49_5-linux-x86_64";
+    version = "0.49.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.5/swiftformat_linux.zip";
+      sha256 = "sha256-+WuTrv7yTTiAwy3KTmSrx5bRlkEfX9J/jN2vIqA3IHQ=";
+    };
+  };
+  swiftformat-0_49_6-darwin = {
+    pname = "swiftformat-0_49_6-darwin";
+    version = "0.49.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.6/swiftformat.zip";
+      sha256 = "sha256-M4ACLladFiqEv1GSRECCJq4VPwiwMouaew5l81OJKZE=";
+    };
+  };
+  swiftformat-0_49_6-linux-x86_64 = {
+    pname = "swiftformat-0_49_6-linux-x86_64";
+    version = "0.49.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.6/swiftformat_linux.zip";
+      sha256 = "sha256-vothwKLz94PdoFGh6amaEpggYqTKwtw/lIP0IabXdS8=";
+    };
+  };
+  swiftformat-0_49_7-darwin = {
+    pname = "swiftformat-0_49_7-darwin";
+    version = "0.49.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.7/swiftformat.zip";
+      sha256 = "sha256-0Nd5jBTbilZOMiMeDduQGO8siAeBlS6dHFKbpsVrPUg=";
+    };
+  };
+  swiftformat-0_49_7-linux-x86_64 = {
+    pname = "swiftformat-0_49_7-linux-x86_64";
+    version = "0.49.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.7/swiftformat_linux.zip";
+      sha256 = "sha256-NFjWbiKsncjllEkU/7crMwo+t3ifDodPZdSl2b02GHo=";
+    };
+  };
+  swiftformat-0_49_8-darwin = {
+    pname = "swiftformat-0_49_8-darwin";
+    version = "0.49.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.8/swiftformat.zip";
+      sha256 = "sha256-nA+ZGE1V3CHfXQP5qlhqaZw+owG1AQ2kZyOpLFAO8pU=";
+    };
+  };
+  swiftformat-0_49_8-linux-x86_64 = {
+    pname = "swiftformat-0_49_8-linux-x86_64";
+    version = "0.49.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.8/swiftformat_linux.zip";
+      sha256 = "sha256-k94bdX6Yhp3jOBUAyUUmZCxYCr14i+vNoyuiGzFh7kg=";
+    };
+  };
+  swiftformat-0_49_9-darwin = {
+    pname = "swiftformat-0_49_9-darwin";
+    version = "0.49.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.9/swiftformat.zip";
+      sha256 = "sha256-dhOpWj3kJ7zq4tkLHNeRtpAt9KIV0bMjqWuCQmviWrs=";
+    };
+  };
+  swiftformat-0_49_9-linux-x86_64 = {
+    pname = "swiftformat-0_49_9-linux-x86_64";
+    version = "0.49.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.9/swiftformat_linux.zip";
+      sha256 = "sha256-DW+eSBuM2FMiF/GCREQZXvS8DK6j13foWWXeiQQ271s=";
+    };
+  };
+  swiftformat-0_50_0-darwin = {
+    pname = "swiftformat-0_50_0-darwin";
+    version = "0.50.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.0/swiftformat.zip";
+      sha256 = "sha256-tS3Is0bRO99JKgHCmyNuC+sty/pX9bj+qxmXeO8Daa4=";
+    };
+  };
+  swiftformat-0_50_0-linux-x86_64 = {
+    pname = "swiftformat-0_50_0-linux-x86_64";
+    version = "0.50.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.0/swiftformat_linux.zip";
+      sha256 = "sha256-l9UGcS8+de+If6gZhWjXpVy+OWoflF9XvE9Tyznbn1k=";
+    };
+  };
+  swiftformat-0_50_1-darwin = {
+    pname = "swiftformat-0_50_1-darwin";
+    version = "0.50.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.1/swiftformat.zip";
+      sha256 = "sha256-sUbwP/1AXzM/eJISn8gk8e/wpcToOXJVnZvlm20GHBU=";
+    };
+  };
+  swiftformat-0_50_1-linux-x86_64 = {
+    pname = "swiftformat-0_50_1-linux-x86_64";
+    version = "0.50.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.1/swiftformat_linux.zip";
+      sha256 = "sha256-rvL2qFWr34GdlqmiuOs7xfI9V0Q5IyoiyWAZ2NKupps=";
+    };
+  };
+  swiftformat-0_50_2-darwin = {
+    pname = "swiftformat-0_50_2-darwin";
+    version = "0.50.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.2/swiftformat.zip";
+      sha256 = "sha256-cBqoO+GCM9jgQGTAPCzlatz3L4O2+h3/ydKiP+CpJvs=";
+    };
+  };
+  swiftformat-0_50_2-linux-x86_64 = {
+    pname = "swiftformat-0_50_2-linux-x86_64";
+    version = "0.50.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.2/swiftformat_linux.zip";
+      sha256 = "sha256-kyQicZv3VgGV+56itjZpDNspQVMAV73YPBOKCvGp0zs=";
+    };
+  };
+  swiftformat-0_50_3-darwin = {
+    pname = "swiftformat-0_50_3-darwin";
+    version = "0.50.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.3/swiftformat.zip";
+      sha256 = "sha256-KkToflypDX1JfKYm7Xg4FtH9jyTZVQ6TEqDXJApG/UM=";
+    };
+  };
+  swiftformat-0_50_3-linux-x86_64 = {
+    pname = "swiftformat-0_50_3-linux-x86_64";
+    version = "0.50.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.3/swiftformat_linux.zip";
+      sha256 = "sha256-/NbTXrKz+UO/Hai4kfnliYEcCQI66gqqRdDRQi8g3gY=";
+    };
+  };
+  swiftformat-0_50_4-darwin = {
+    pname = "swiftformat-0_50_4-darwin";
+    version = "0.50.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.4/swiftformat.zip";
+      sha256 = "sha256-OO1rRoNotWpoO1ZGIVychMaGb4uScOTrXfkZPWqlzjI=";
+    };
+  };
+  swiftformat-0_50_4-linux-x86_64 = {
+    pname = "swiftformat-0_50_4-linux-x86_64";
+    version = "0.50.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.4/swiftformat_linux.zip";
+      sha256 = "sha256-bGtZdNafFVd4kJg1qeauEfKePZuZV5njBw/GjEw4RE8=";
+    };
+  };
+  swiftformat-0_50_5-darwin = {
+    pname = "swiftformat-0_50_5-darwin";
+    version = "0.50.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.5/swiftformat.zip";
+      sha256 = "sha256-7y3hFPA/vq7XJfDSB/BX2JETOC+9gM2ME8S306x0/Y8=";
+    };
+  };
+  swiftformat-0_50_5-linux-x86_64 = {
+    pname = "swiftformat-0_50_5-linux-x86_64";
+    version = "0.50.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.5/swiftformat_linux.zip";
+      sha256 = "sha256-ZyqmKvdbe48oZ9kTdalM2pQverMcJTPYcTo+gvkUw2k=";
+    };
+  };
+  swiftformat-0_50_6-darwin = {
+    pname = "swiftformat-0_50_6-darwin";
+    version = "0.50.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.6/swiftformat.zip";
+      sha256 = "sha256-hlii4k+ksuszcymxPQyxz05uCpxiAcGutGDb/bJAzj0=";
+    };
+  };
+  swiftformat-0_50_6-linux-x86_64 = {
+    pname = "swiftformat-0_50_6-linux-x86_64";
+    version = "0.50.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.6/swiftformat_linux.zip";
+      sha256 = "sha256-irreLw6BESNsv38WfxTALs/6/AUG8vzF8CXApxmdOlI=";
+    };
+  };
+  swiftformat-0_50_7-darwin = {
+    pname = "swiftformat-0_50_7-darwin";
+    version = "0.50.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.7/swiftformat.zip";
+      sha256 = "sha256-R0Mt2L/4Z3NvQiVa82AkcJ4MyQ8xpgXIG2d4OKxM5hY=";
+    };
+  };
+  swiftformat-0_50_7-linux-x86_64 = {
+    pname = "swiftformat-0_50_7-linux-x86_64";
+    version = "0.50.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.7/swiftformat_linux.zip";
+      sha256 = "sha256-vbvSyvU3iRhkp3FAnSOVTG8DMK+QjQ053RJBjWVCs2I=";
+    };
+  };
+  swiftformat-0_50_8-darwin = {
+    pname = "swiftformat-0_50_8-darwin";
+    version = "0.50.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.8/swiftformat.zip";
+      sha256 = "sha256-cVbRKK3LnBiQk10Eki1lom5AFPAJoNXNr60aMDeWs7I=";
+    };
+  };
+  swiftformat-0_50_8-linux-x86_64 = {
+    pname = "swiftformat-0_50_8-linux-x86_64";
+    version = "0.50.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.8/swiftformat_linux.zip";
+      sha256 = "sha256-o6BXHkPV43FxGWgMpXIjS/8gK8D1q7AaFeFCPGqfVYc=";
+    };
+  };
+  swiftformat-0_50_9-darwin = {
+    pname = "swiftformat-0_50_9-darwin";
+    version = "0.50.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.9/swiftformat.zip";
+      sha256 = "sha256-mf0SCl66ux9d5MnTp8hgHHDDht98nufaMfQlkw7DsM0=";
+    };
+  };
+  swiftformat-0_50_9-linux-x86_64 = {
+    pname = "swiftformat-0_50_9-linux-x86_64";
+    version = "0.50.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.9/swiftformat_linux.zip";
+      sha256 = "sha256-4dYeGhFea2C1O3SSz7MXbCifu8K/OkvAFRfB4pIvXnA=";
+    };
+  };
+  swiftformat-0_51_0-darwin = {
+    pname = "swiftformat-0_51_0-darwin";
+    version = "0.51.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.0/swiftformat.zip";
+      sha256 = "sha256-74bvhSLgLq/mld44GIDeicYtJ1abPeqtBGsHJZLqiMU=";
+    };
+  };
+  swiftformat-0_51_0-linux-x86_64 = {
+    pname = "swiftformat-0_51_0-linux-x86_64";
+    version = "0.51.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.0/swiftformat_linux.zip";
+      sha256 = "sha256-oW3Skrlw/YSXvAKhafe+n4wjVskoogaasCr9dpciAV8=";
+    };
+  };
+  swiftformat-0_51_1-darwin = {
+    pname = "swiftformat-0_51_1-darwin";
+    version = "0.51.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.1/swiftformat.zip";
+      sha256 = "sha256-jyDKb0OERCoGmxm1s5shf+nlL5sFb5TZObCtBRP8/m0=";
+    };
+  };
+  swiftformat-0_51_1-linux-x86_64 = {
+    pname = "swiftformat-0_51_1-linux-x86_64";
+    version = "0.51.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.1/swiftformat_linux.zip";
+      sha256 = "sha256-MuuxfR6qXlzhg3wHReNZ5SGx9/gpQh694bszrMgwvjM=";
+    };
+  };
+  swiftformat-0_51_10-darwin = {
+    pname = "swiftformat-0_51_10-darwin";
+    version = "0.51.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.10/swiftformat.zip";
+      sha256 = "sha256-zkBFLqixarwAGfnVmun1MjG1KcBhnd37cp7ISibFRSk=";
+    };
+  };
+  swiftformat-0_51_10-linux-x86_64 = {
+    pname = "swiftformat-0_51_10-linux-x86_64";
+    version = "0.51.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.10/swiftformat_linux.zip";
+      sha256 = "sha256-aQTJZzdy0pvTVEezr3G30GaNJEd2Oo3ollMZa5KEhw0=";
+    };
+  };
+  swiftformat-0_51_11-darwin = {
+    pname = "swiftformat-0_51_11-darwin";
+    version = "0.51.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.11/swiftformat.zip";
+      sha256 = "sha256-5WXr9sVO6OGsg+SXTtrjTgAvhu2jWKWDjAFx8y8AqyA=";
+    };
+  };
+  swiftformat-0_51_11-linux-x86_64 = {
+    pname = "swiftformat-0_51_11-linux-x86_64";
+    version = "0.51.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.11/swiftformat_linux.zip";
+      sha256 = "sha256-pJt52XwjTMtbzSBk/+yGjpPi6r8tXeeZdMo4Atjjiew=";
+    };
+  };
+  swiftformat-0_51_12-darwin = {
+    pname = "swiftformat-0_51_12-darwin";
+    version = "0.51.12";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.12/swiftformat.zip";
+      sha256 = "sha256-CMtxlbWeoYoDg54Iktp3fv6LYnIB8SVaANBOQOK2eBU=";
+    };
+  };
+  swiftformat-0_51_12-linux-x86_64 = {
+    pname = "swiftformat-0_51_12-linux-x86_64";
+    version = "0.51.12";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.12/swiftformat_linux.zip";
+      sha256 = "sha256-44EpcZFHsr37BhYUgBDJyi1Yq5ipxnwGS25CbQXzH80=";
+    };
+  };
+  swiftformat-0_51_13-darwin = {
+    pname = "swiftformat-0_51_13-darwin";
+    version = "0.51.13";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.13/swiftformat.zip";
+      sha256 = "sha256-UT85UVlmZfWhX302G0axEe8olbDsdYewKhT5QbOF+Y0=";
+    };
+  };
+  swiftformat-0_51_13-linux-x86_64 = {
+    pname = "swiftformat-0_51_13-linux-x86_64";
+    version = "0.51.13";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.13/swiftformat_linux.zip";
+      sha256 = "sha256-pApgIOHICzsQXI3pcB89QNstPI3OnIpFu1o5juWoNZw=";
+    };
+  };
+  swiftformat-0_51_15-darwin = {
+    pname = "swiftformat-0_51_15-darwin";
+    version = "0.51.15";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.15/swiftformat.zip";
+      sha256 = "sha256-tDzIwwFbfhD30NN8Rm1BmHMzeSF0yt91fSou+RAw6MA=";
+    };
+  };
+  swiftformat-0_51_15-linux-x86_64 = {
+    pname = "swiftformat-0_51_15-linux-x86_64";
+    version = "0.51.15";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.15/swiftformat_linux.zip";
+      sha256 = "sha256-dU3j74VJTkOsDPylo0+iH10fn/jJWrGSqyq/jUXyVMo=";
+    };
+  };
+  swiftformat-0_51_2-darwin = {
+    pname = "swiftformat-0_51_2-darwin";
+    version = "0.51.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.2/swiftformat.zip";
+      sha256 = "sha256-oKWHq2L5hbQ5cOYyCR7gB5eLPrQbA0MenARxonf6Ok4=";
+    };
+  };
+  swiftformat-0_51_2-linux-x86_64 = {
+    pname = "swiftformat-0_51_2-linux-x86_64";
+    version = "0.51.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.2/swiftformat_linux.zip";
+      sha256 = "sha256-6OgnDiZyv73XH2PelSKkJD1H9Ms5+8PapkOyaJvewHg=";
+    };
+  };
+  swiftformat-0_51_3-darwin = {
+    pname = "swiftformat-0_51_3-darwin";
+    version = "0.51.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.3/swiftformat.zip";
+      sha256 = "sha256-7xhmA4w26l3G9fYD6IkbUXsq7gzcUcrVbfwgAOXyp3w=";
+    };
+  };
+  swiftformat-0_51_3-linux-x86_64 = {
+    pname = "swiftformat-0_51_3-linux-x86_64";
+    version = "0.51.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.3/swiftformat_linux.zip";
+      sha256 = "sha256-LIM5tErA1yapesNje/bDOxx9EdjzKXwozxeWAgO7GdY=";
+    };
+  };
+  swiftformat-0_51_4-darwin = {
+    pname = "swiftformat-0_51_4-darwin";
+    version = "0.51.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.4/swiftformat.zip";
+      sha256 = "sha256-p/VNCCXiONmVEQyCUTNJW5rmaQrUu9ezp6VsaL596Qc=";
+    };
+  };
+  swiftformat-0_51_4-linux-x86_64 = {
+    pname = "swiftformat-0_51_4-linux-x86_64";
+    version = "0.51.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.4/swiftformat_linux.zip";
+      sha256 = "sha256-8PQfKrwsTwtesd1zEr6J51c+b1ImnIJmIr+ea9v5xZc=";
+    };
+  };
+  swiftformat-0_51_5-darwin = {
+    pname = "swiftformat-0_51_5-darwin";
+    version = "0.51.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.5/swiftformat.zip";
+      sha256 = "sha256-rKmmALAF0LnbfjJpvnZvyrFYsJvUvL71QB1dPTD/14o=";
+    };
+  };
+  swiftformat-0_51_5-linux-x86_64 = {
+    pname = "swiftformat-0_51_5-linux-x86_64";
+    version = "0.51.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.5/swiftformat_linux.zip";
+      sha256 = "sha256-wEFce9yw4E2s7BkCvozOFZBzWWBaSf/FBrONo8kD5es=";
+    };
+  };
+  swiftformat-0_51_6-darwin = {
+    pname = "swiftformat-0_51_6-darwin";
+    version = "0.51.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.6/swiftformat.zip";
+      sha256 = "sha256-dU80a1aGWODidDui63J5tBbQnzNEF5P0OTAx21ewpVQ=";
+    };
+  };
+  swiftformat-0_51_6-linux-x86_64 = {
+    pname = "swiftformat-0_51_6-linux-x86_64";
+    version = "0.51.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.6/swiftformat_linux.zip";
+      sha256 = "sha256-MBig2LuLzPtWtGMjBZLpytJJXPgHelaUSRkiWuivFdk=";
+    };
+  };
+  swiftformat-0_51_7-darwin = {
+    pname = "swiftformat-0_51_7-darwin";
+    version = "0.51.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.7/swiftformat.zip";
+      sha256 = "sha256-SQDZvqw5ju2esc6mE8vP6Ttz6fHY0tgLCh76mZ2bojQ=";
+    };
+  };
+  swiftformat-0_51_7-linux-x86_64 = {
+    pname = "swiftformat-0_51_7-linux-x86_64";
+    version = "0.51.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.7/swiftformat_linux.zip";
+      sha256 = "sha256-EQMsBdFGcqQuJajFEZWkfrzfQ5jS/hzzSDLwXdljrbs=";
+    };
+  };
+  swiftformat-0_51_8-darwin = {
+    pname = "swiftformat-0_51_8-darwin";
+    version = "0.51.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.8/swiftformat.zip";
+      sha256 = "sha256-/dylzYzcpYGbKYwy0uZZqHLAnCbyDjdx71abC2+04WE=";
+    };
+  };
+  swiftformat-0_51_8-linux-x86_64 = {
+    pname = "swiftformat-0_51_8-linux-x86_64";
+    version = "0.51.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.8/swiftformat_linux.zip";
+      sha256 = "sha256-hc8PS7TxFZldp1+9Q6l3jw5ySR6suFavhJIgbYRnlUY=";
+    };
+  };
+  swiftformat-0_51_9-darwin = {
+    pname = "swiftformat-0_51_9-darwin";
+    version = "0.51.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.9/swiftformat.zip";
+      sha256 = "sha256-9dtNfhzA4Nr3cmaYO61ZMfuV9v/Ozwj6GqGf27fFP8Q=";
+    };
+  };
+  swiftformat-0_51_9-linux-x86_64 = {
+    pname = "swiftformat-0_51_9-linux-x86_64";
+    version = "0.51.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.9/swiftformat_linux.zip";
+      sha256 = "sha256-j0pFIzEdmm0IxfW7DwRWurOXE1hdILZiqME2HoJPsEg=";
+    };
+  };
+  swiftformat-0_52_0-darwin = {
+    pname = "swiftformat-0_52_0-darwin";
+    version = "0.52.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.0/swiftformat.zip";
+      sha256 = "sha256-WinJ+S0XGY7RUkm16knmXJQY/WzTdy3FNOsoVhNJuGk=";
+    };
+  };
+  swiftformat-0_52_0-linux-x86_64 = {
+    pname = "swiftformat-0_52_0-linux-x86_64";
+    version = "0.52.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.0/swiftformat_linux.zip";
+      sha256 = "sha256-8BnBmTTSPhX7bIkjolDVJk50K6AYj1CgRcyzK43xPwI=";
+    };
+  };
+  swiftformat-0_52_1-darwin = {
+    pname = "swiftformat-0_52_1-darwin";
+    version = "0.52.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.1/swiftformat.zip";
+      sha256 = "sha256-VGq3YQjiLkOe9qIbOwiO7IEoyRlkbqgDj1cStO5NASo=";
+    };
+  };
+  swiftformat-0_52_1-linux-x86_64 = {
+    pname = "swiftformat-0_52_1-linux-x86_64";
+    version = "0.52.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.1/swiftformat_linux.zip";
+      sha256 = "sha256-rt1fHw+KB+roQGG60BW1yIc8UGsGiYfC6KzGnARWJ0g=";
+    };
+  };
+  swiftformat-0_52_10-darwin = {
+    pname = "swiftformat-0_52_10-darwin";
+    version = "0.52.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.10/swiftformat.zip";
+      sha256 = "sha256-49703icYwAg223D1iLM2oNABXskpr437oeiBCuIHoOs=";
+    };
+  };
+  swiftformat-0_52_10-linux-x86_64 = {
+    pname = "swiftformat-0_52_10-linux-x86_64";
+    version = "0.52.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.10/swiftformat_linux.zip";
+      sha256 = "sha256-jNBCfNBGvZlz+3JhFQPG1qWJEpE18Nggbcz+GwoXK2E=";
+    };
+  };
+  swiftformat-0_52_11-darwin = {
+    pname = "swiftformat-0_52_11-darwin";
+    version = "0.52.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.11/swiftformat.zip";
+      sha256 = "sha256-StQ/J1+FcWW74LqYJHPCKZW6HrtpzISyYytuWfrMAJk=";
+    };
+  };
+  swiftformat-0_52_11-linux-x86_64 = {
+    pname = "swiftformat-0_52_11-linux-x86_64";
+    version = "0.52.11";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.11/swiftformat_linux.zip";
+      sha256 = "sha256-IaknLfD6oNIEvOVqgorEQHad5XGaK6c0isK5LcHMGbY=";
+    };
+  };
+  swiftformat-0_52_2-darwin = {
+    pname = "swiftformat-0_52_2-darwin";
+    version = "0.52.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.2/swiftformat.zip";
+      sha256 = "sha256-Q8RpPzxcWku5t8nHr6i3kCVkRSD59+Shj+dV/S29sF8=";
+    };
+  };
+  swiftformat-0_52_2-linux-x86_64 = {
+    pname = "swiftformat-0_52_2-linux-x86_64";
+    version = "0.52.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.2/swiftformat_linux.zip";
+      sha256 = "sha256-od+CarDxtExEbfxoe4c0vLI89ru+iZz8xEs6wV++VNc=";
+    };
+  };
+  swiftformat-0_52_3-darwin = {
+    pname = "swiftformat-0_52_3-darwin";
+    version = "0.52.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.3/swiftformat.zip";
+      sha256 = "sha256-skG3Tnk5plD7wtVyv3aE/WJlaKhJok1vRyH3K1i/MYs=";
+    };
+  };
+  swiftformat-0_52_3-linux-x86_64 = {
+    pname = "swiftformat-0_52_3-linux-x86_64";
+    version = "0.52.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.3/swiftformat_linux.zip";
+      sha256 = "sha256-YuoR303MWg/nNuMvLeuNnyBv12yGzzyiPfQtLoBq1B8=";
+    };
+  };
+  swiftformat-0_52_4-darwin = {
+    pname = "swiftformat-0_52_4-darwin";
+    version = "0.52.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.4/swiftformat.zip";
+      sha256 = "sha256-aOSXXNbkA7n31rm08/ZM97vRFEQqOVAlML8gGR0GDm0=";
+    };
+  };
+  swiftformat-0_52_4-linux-x86_64 = {
+    pname = "swiftformat-0_52_4-linux-x86_64";
+    version = "0.52.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.4/swiftformat_linux.zip";
+      sha256 = "sha256-cyNLXPPTGUyqc18IXv5zR42hzOCSnAg65KzPq/m41FQ=";
+    };
+  };
+  swiftformat-0_52_5-darwin = {
+    pname = "swiftformat-0_52_5-darwin";
+    version = "0.52.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.5/swiftformat.zip";
+      sha256 = "sha256-kjLAUKIchHMK+B6Y6BC+RZDPV3H2QcwAbDRXPzV0Q3k=";
+    };
+  };
+  swiftformat-0_52_5-linux-x86_64 = {
+    pname = "swiftformat-0_52_5-linux-x86_64";
+    version = "0.52.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.5/swiftformat_linux.zip";
+      sha256 = "sha256-X54MkpTMDXyx0iOq4gYe88mXfi834OIb6vF6g2294Dk=";
+    };
+  };
+  swiftformat-0_52_6-darwin = {
+    pname = "swiftformat-0_52_6-darwin";
+    version = "0.52.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.6/swiftformat.zip";
+      sha256 = "sha256-PHxNlXvDAfog7Bv5WcHbmxQnDS33nBI77LIb7pY7F3Y=";
+    };
+  };
+  swiftformat-0_52_6-linux-x86_64 = {
+    pname = "swiftformat-0_52_6-linux-x86_64";
+    version = "0.52.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.6/swiftformat_linux.zip";
+      sha256 = "sha256-WgfxhIog9Yy9n+X0B3yYek9loZQOpaTFH3irsFFY5h4=";
+    };
+  };
+  swiftformat-0_52_7-darwin = {
+    pname = "swiftformat-0_52_7-darwin";
+    version = "0.52.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.7/swiftformat.zip";
+      sha256 = "sha256-ngv0vNjqF15+rp56SP9J73E8GZ3AcqFSJi0A0j3IdjU=";
+    };
+  };
+  swiftformat-0_52_7-linux-x86_64 = {
+    pname = "swiftformat-0_52_7-linux-x86_64";
+    version = "0.52.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.7/swiftformat_linux.zip";
+      sha256 = "sha256-eyLLETfndyuT48conjvuBwXuppJ7BLAx6WLD7NYgb/g=";
+    };
+  };
+  swiftformat-0_52_8-darwin = {
+    pname = "swiftformat-0_52_8-darwin";
+    version = "0.52.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.8/swiftformat.zip";
+      sha256 = "sha256-fdsLFZ5yKK79v6iujeC50TlpPHzCiwIgfcqjfq7qEJk=";
+    };
+  };
+  swiftformat-0_52_8-linux-x86_64 = {
+    pname = "swiftformat-0_52_8-linux-x86_64";
+    version = "0.52.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.8/swiftformat_linux.zip";
+      sha256 = "sha256-z692CMkA9fKfYSTqrGgOlCxjamlBGIAYqhYlgBXWxyU=";
+    };
+  };
+  swiftformat-0_52_9-darwin = {
+    pname = "swiftformat-0_52_9-darwin";
+    version = "0.52.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.9/swiftformat.zip";
+      sha256 = "sha256-jL905135KQ5rJSL60okiFT8NBTlTNkAGF0UeY1GwZqE=";
+    };
+  };
+  swiftformat-0_53_0-darwin = {
+    pname = "swiftformat-0_53_0-darwin";
+    version = "0.53.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.0/swiftformat.zip";
+      sha256 = "sha256-xZ43i0g3cTlUj8CXVzb+n8oGhsu7Ij9wPorwJ1LVwVM=";
+    };
+  };
+  swiftformat-0_53_0-linux-x86_64 = {
+    pname = "swiftformat-0_53_0-linux-x86_64";
+    version = "0.53.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.0/swiftformat_linux.zip";
+      sha256 = "sha256-2LWBJ3o82e3JvksONtHRQW2wLN4tpvXKLdKbeaKfOnI=";
+    };
+  };
+  swiftformat-0_53_1-darwin = {
+    pname = "swiftformat-0_53_1-darwin";
+    version = "0.53.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.1/swiftformat.zip";
+      sha256 = "sha256-WjU0oTuxCQWuXKreOwhSphyAZyVrR5D07gBkBiumx5c=";
+    };
+  };
+  swiftformat-0_53_1-linux-x86_64 = {
+    pname = "swiftformat-0_53_1-linux-x86_64";
+    version = "0.53.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.1/swiftformat_linux.zip";
+      sha256 = "sha256-wL4czkY+g92mJsQOstchrKYvpZsvcihh4MQze+rEK9Y=";
+    };
+  };
+  swiftformat-0_53_10-darwin = {
+    pname = "swiftformat-0_53_10-darwin";
+    version = "0.53.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.10/swiftformat.zip";
+      sha256 = "sha256-F0C3acU6lWRDKQX1o5uRPizKEz8W2bWYqjKy/lS5MxY=";
+    };
+  };
+  swiftformat-0_53_10-linux-x86_64 = {
+    pname = "swiftformat-0_53_10-linux-x86_64";
+    version = "0.53.10";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.10/swiftformat_linux.zip";
+      sha256 = "sha256-IyioB+ps8fjcAo6Rvk/SVWtEzUo8pzh0yxMSEk7MbO4=";
+    };
+  };
+  swiftformat-0_53_2-darwin = {
+    pname = "swiftformat-0_53_2-darwin";
+    version = "0.53.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.2/swiftformat.zip";
+      sha256 = "sha256-sE8NOkyfsD8Nq5TOng63vFoV4jfut77kQmpOqUIjtC0=";
+    };
+  };
+  swiftformat-0_53_2-linux-x86_64 = {
+    pname = "swiftformat-0_53_2-linux-x86_64";
+    version = "0.53.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.2/swiftformat_linux.zip";
+      sha256 = "sha256-IqN7UHCICjJnVhEydsW37RjjWqSdPBitNB/B0UgYJ7w=";
+    };
+  };
+  swiftformat-0_53_3-darwin = {
+    pname = "swiftformat-0_53_3-darwin";
+    version = "0.53.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.3/swiftformat.zip";
+      sha256 = "sha256-EBTLMKdwDTjQ4hdMoo+YBd70Bq0kW3B6AHjZX1R8gxg=";
+    };
+  };
+  swiftformat-0_53_3-linux-x86_64 = {
+    pname = "swiftformat-0_53_3-linux-x86_64";
+    version = "0.53.3";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.3/swiftformat_linux.zip";
+      sha256 = "sha256-t+3WrvS0Xk4O9jIj16xJEETgDchv1JFrtWFUNPpw6As=";
+    };
+  };
+  swiftformat-0_53_4-darwin = {
+    pname = "swiftformat-0_53_4-darwin";
+    version = "0.53.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.4/swiftformat.zip";
+      sha256 = "sha256-oYQE0MoDSVoOkPdPVUpzrxab2d1wgyHwDSDeZFzYIw0=";
+    };
+  };
+  swiftformat-0_53_4-linux-x86_64 = {
+    pname = "swiftformat-0_53_4-linux-x86_64";
+    version = "0.53.4";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.4/swiftformat_linux.zip";
+      sha256 = "sha256-+/tV9Ke7e5+PFdLuxbkbgmEx4J4UGZsWq9kkMKA5nDM=";
+    };
+  };
+  swiftformat-0_53_5-darwin = {
+    pname = "swiftformat-0_53_5-darwin";
+    version = "0.53.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.5/swiftformat.zip";
+      sha256 = "sha256-iWn0qjcIOcEHjAXBxpxG1N2SD2xCoqmOTJV0Fwoptg4=";
+    };
+  };
+  swiftformat-0_53_5-linux-x86_64 = {
+    pname = "swiftformat-0_53_5-linux-x86_64";
+    version = "0.53.5";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.5/swiftformat_linux.zip";
+      sha256 = "sha256-AR/3LKHnF9xotOpyTrMCmno45OcVpchPULdAiorgEf4=";
+    };
+  };
+  swiftformat-0_53_6-darwin = {
+    pname = "swiftformat-0_53_6-darwin";
+    version = "0.53.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.6/swiftformat.zip";
+      sha256 = "sha256-eifvT6BEzVWDzyBQjvwsiADEXT0O0t4qrVbF3URwFow=";
+    };
+  };
+  swiftformat-0_53_6-linux-x86_64 = {
+    pname = "swiftformat-0_53_6-linux-x86_64";
+    version = "0.53.6";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.6/swiftformat_linux.zip";
+      sha256 = "sha256-pN1I1vxsj2i+rStVTzan0N51HwAC+pUszoKP3ZFTiq4=";
+    };
+  };
+  swiftformat-0_53_7-darwin = {
+    pname = "swiftformat-0_53_7-darwin";
+    version = "0.53.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.7/swiftformat.zip";
+      sha256 = "sha256-/bRtW0q87A0/+JzgAzhuo6AV4/+BsjT65hVakaUOsnk=";
+    };
+  };
+  swiftformat-0_53_7-linux-x86_64 = {
+    pname = "swiftformat-0_53_7-linux-x86_64";
+    version = "0.53.7";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.7/swiftformat_linux.zip";
+      sha256 = "sha256-5VAya6quH5rv3pTgfp7ctorlh7yf5x2BGYMgxm20nFI=";
+    };
+  };
+  swiftformat-0_53_8-darwin = {
+    pname = "swiftformat-0_53_8-darwin";
+    version = "0.53.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.8/swiftformat.zip";
+      sha256 = "sha256-SvoE9kddOkip22sUf+r6lFYkYQlEiHHV/2VUw55ShiI=";
+    };
+  };
+  swiftformat-0_53_8-linux-x86_64 = {
+    pname = "swiftformat-0_53_8-linux-x86_64";
+    version = "0.53.8";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.8/swiftformat_linux.zip";
+      sha256 = "sha256-3WBwQ2q7vjYgmY10Zi6jFkRFTLE2Xl4MvK59++7UYe8=";
+    };
+  };
+  swiftformat-0_53_9-darwin = {
+    pname = "swiftformat-0_53_9-darwin";
+    version = "0.53.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.9/swiftformat.zip";
+      sha256 = "sha256-HSYQRM/ppem9HBN0HWzawDLLWCoOS7sv9VdneITYbHg=";
+    };
+  };
+  swiftformat-0_53_9-linux-x86_64 = {
+    pname = "swiftformat-0_53_9-linux-x86_64";
+    version = "0.53.9";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.9/swiftformat_linux.zip";
+      sha256 = "sha256-c54CnXcY6i9ftl22Mhb9wYYtBtkJEZx9d3tZ3vRTG14=";
+    };
+  };
   swiftformat-0_54_0-darwin = {
     pname = "swiftformat-0_54_0-darwin";
     version = "0.54.0";
