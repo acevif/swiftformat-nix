@@ -19,6 +19,8 @@
         in
         {
           packages = {
+            swiftformat_0_57_0 = mkSwiftformat "0_57_0";
+            swiftformat_0_57_1 = mkSwiftformat "0_57_1";
             swiftformat_0_57_2 = mkSwiftformat "0_57_2";
             swiftformat_0_58_0 = mkSwiftformat "0_58_0";
             swiftformat_0_58_1 = mkSwiftformat "0_58_1";
@@ -33,6 +35,7 @@
             swiftformat_0_60_0 = mkSwiftformat "0_60_0";
             swiftformat_0_60_1 = mkSwiftformat "0_60_1";
             # aliases
+            swiftformat_0_57 = self'.packages.swiftformat_0_57_2;
             swiftformat_0_58 = self'.packages.swiftformat_0_58_7;
             swiftformat_0_59 = self'.packages.swiftformat_0_59_1;
             swiftformat_0_60 = self'.packages.swiftformat_0_60_1;

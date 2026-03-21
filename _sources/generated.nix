@@ -6,6 +6,54 @@
   dockerTools,
 }:
 {
+  swiftformat-0_57_0-darwin = {
+    pname = "swiftformat-0_57_0-darwin";
+    version = "0.57.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.0/swiftformat.zip";
+      sha256 = "sha256-lHEb+9H8b12YA32WEcOdDCO4myaY7lvySvUQePriKyU=";
+    };
+  };
+  swiftformat-0_57_0-linux-aarch64 = {
+    pname = "swiftformat-0_57_0-linux-aarch64";
+    version = "0.57.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.0/swiftformat_linux_aarch64.zip";
+      sha256 = "sha256-g9zWl3b0zLxEAYJrNGU7R/GmHFQ/seao1n2DR94W+jI=";
+    };
+  };
+  swiftformat-0_57_0-linux-x86_64 = {
+    pname = "swiftformat-0_57_0-linux-x86_64";
+    version = "0.57.0";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.0/swiftformat_linux.zip";
+      sha256 = "sha256-lH6atC9ZzgPiLm9cpPGz3y3OaBKco7P6ON2VPejFzqM=";
+    };
+  };
+  swiftformat-0_57_1-darwin = {
+    pname = "swiftformat-0_57_1-darwin";
+    version = "0.57.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.1/swiftformat.zip";
+      sha256 = "sha256-C8d3/AB1EjILQvO0iC/kDLehsIZZuXV8h4qBXXYFV+8=";
+    };
+  };
+  swiftformat-0_57_1-linux-aarch64 = {
+    pname = "swiftformat-0_57_1-linux-aarch64";
+    version = "0.57.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.1/swiftformat_linux_aarch64.zip";
+      sha256 = "sha256-wyq2ZVRjeNu6zS7DsZnDSJJNWt5LzPeaVZcQhiRkBBU=";
+    };
+  };
+  swiftformat-0_57_1-linux-x86_64 = {
+    pname = "swiftformat-0_57_1-linux-x86_64";
+    version = "0.57.1";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.1/swiftformat_linux.zip";
+      sha256 = "sha256-vvzHaaZCtVNe+Qf6FBpx+FUd0eWgKfdiLglgqyjoqQ0=";
+    };
+  };
   swiftformat-0_57_2-darwin = {
     pname = "swiftformat-0_57_2-darwin";
     version = "0.57.2";
