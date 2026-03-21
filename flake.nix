@@ -19,6 +19,7 @@
         in
         {
           packages = {
+            swiftformat_0_57_2 = mkSwiftformat "0_57_2";
             swiftformat_0_58_0 = mkSwiftformat "0_58_0";
             swiftformat_0_58_1 = mkSwiftformat "0_58_1";
             swiftformat_0_58_2 = mkSwiftformat "0_58_2";

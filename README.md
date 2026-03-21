@@ -16,6 +16,7 @@ Versioned SwiftFormat packages for Nix.
 - `swiftformat_0_58_2` — SwiftFormat 0.58.2
 - `swiftformat_0_58_1` — SwiftFormat 0.58.1
 - `swiftformat_0_58_0` — SwiftFormat 0.58.0
+- `swiftformat_0_57_2` — SwiftFormat 0.57.2
 
 ### Aliases
 

@@ -6,6 +6,30 @@
   dockerTools,
 }:
 {
+  swiftformat-0_57_2-darwin = {
+    pname = "swiftformat-0_57_2-darwin";
+    version = "0.57.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.2/swiftformat.zip";
+      sha256 = "sha256-gzP+35W1xfBNlmFNIEkyeBnghNzXoPnzjaxZqmBKC3Q=";
+    };
+  };
+  swiftformat-0_57_2-linux-aarch64 = {
+    pname = "swiftformat-0_57_2-linux-aarch64";
+    version = "0.57.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.2/swiftformat_linux_aarch64.zip";
+      sha256 = "sha256-ZVLgimhj6WnXioH5JXv/nwWD1Q1WXq6jF+mnljEsKoQ=";
+    };
+  };
+  swiftformat-0_57_2-linux-x86_64 = {
+    pname = "swiftformat-0_57_2-linux-x86_64";
+    version = "0.57.2";
+    src = fetchurl {
+      url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.2/swiftformat_linux.zip";
+      sha256 = "sha256-z+Lsv9khvXv2gfKlR72c9CzFEvIbQW6qc1Ez5tz+Ydw=";
+    };
+  };
   swiftformat-0_58_0-darwin = {
     pname = "swiftformat-0_58_0-darwin";
     version = "0.58.0";
