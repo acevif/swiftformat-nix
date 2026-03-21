@@ -1,14 +1,22 @@
-{ pkgs, stdenv, lib, unzip, autoPatchelfHook, versionId, platforms }:
+{
+  pkgs,
+  stdenv,
+  lib,
+  unzip,
+  autoPatchelfHook,
+  versionId,
+  platforms,
+}:
 
 let
   sources = pkgs.callPackage ./_sources/generated.nix { };
 
   src =
-    if stdenv.isDarwin then
+    if stdenv.hostPlatform.isDarwin then
       sources."swiftformat-${versionId}-darwin".src
-    else if stdenv.isLinux && stdenv.hostPlatform.isAarch64 then
+    else if stdenv.hostPlatform.isLinux && stdenv.hostPlatform.isAarch64 then
       sources."swiftformat-${versionId}-linux-aarch64".src
-    else if stdenv.isLinux && stdenv.hostPlatform.isx86_64 then
+    else if stdenv.hostPlatform.isLinux && stdenv.hostPlatform.isx86_64 then
       sources."swiftformat-${versionId}-linux-x86_64".src
     else
       throw "Unsupported platform: ${stdenv.hostPlatform.system}";
@@ -19,8 +27,7 @@ stdenv.mkDerivation {
   pname = "swiftformat";
   inherit version src;
 
-  nativeBuildInputs = [ unzip ]
-    ++ lib.optionals stdenv.isLinux [ autoPatchelfHook ];
+  nativeBuildInputs = [ unzip ] ++ lib.optionals stdenv.hostPlatform.isLinux [ autoPatchelfHook ];
 
   sourceRoot = ".";
 
