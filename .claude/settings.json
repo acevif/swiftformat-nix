@@ -9,6 +9,7 @@
       "Bash(git commit:*)",
       "Bash(nix develop -c nvfetcher)",
       "Bash(nix develop --command nvfetcher)",
+      "Bash(nix flake check:*)",
       "WebSearch",
       "WebFetch(domain:github.com)"
     ],
