@@ -10,10 +10,14 @@
 
 let
   sources = pkgs.callPackage ./_sources/generated.nix { };
+  darwinSource = sources."swiftformat-${versionId}-darwin";
+  licenseSourceName = "swiftformat-${versionId}-license";
+  licenseSrc =
+    if builtins.hasAttr licenseSourceName sources then sources.${licenseSourceName}.src else null;
 
   src =
     if stdenv.hostPlatform.isDarwin then
-      sources."swiftformat-${versionId}-darwin".src
+      darwinSource.src
     else if stdenv.hostPlatform.isLinux && stdenv.hostPlatform.isAarch64 then
       sources."swiftformat-${versionId}-linux-aarch64".src
     else if stdenv.hostPlatform.isLinux && stdenv.hostPlatform.isx86_64 then
@@ -21,7 +25,7 @@ let
     else
       throw "Unsupported platform: ${stdenv.hostPlatform.system}";
 
-  version = sources."swiftformat-${versionId}-darwin".version;
+  version = darwinSource.version;
 in
 stdenv.mkDerivation {
   pname = "swiftformat";
@@ -32,8 +36,17 @@ stdenv.mkDerivation {
   sourceRoot = ".";
 
   installPhase = ''
-    mkdir -p $out/bin
-    install -m755 swiftformat $out/bin/swiftformat
+    runHook preInstall
+
+    mkdir -p "$out/bin"
+    install -m755 swiftformat "$out/bin/swiftformat"
+
+    if [ -n "${if licenseSrc == null then "" else toString licenseSrc}" ]; then
+      mkdir -p "$out/share/licenses/swiftformat"
+      install -m644 "${toString licenseSrc}" "$out/share/licenses/swiftformat/LICENSE.md"
+    fi
+
+    runHook postInstall
   '';
 
   meta = with lib; {
@@ -42,5 +55,6 @@ stdenv.mkDerivation {
     license = licenses.mit;
     inherit platforms;
     mainProgram = "swiftformat";
+    sourceProvenance = with sourceTypes; [ binaryNativeCode ];
   };
 }

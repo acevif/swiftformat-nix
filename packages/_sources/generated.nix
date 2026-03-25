@@ -14,12 +14,28 @@
       sha256 = "sha256-v/YRWvNK8pvtDZOmc1IH7Ga4Ydom/tESFDdGxrYDyws=";
     };
   };
+  swiftformat-0_47_10-license = {
+    pname = "swiftformat-0_47_10-license";
+    version = "0.47.10";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.10/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_47_11-darwin = {
     pname = "swiftformat-0_47_11-darwin";
     version = "0.47.11";
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.11/swiftformat.zip";
       sha256 = "sha256-Co7Vgbeduh3et5bgqkWG/bfJsbBfqT0hPgfzBEKcUHA=";
+    };
+  };
+  swiftformat-0_47_11-license = {
+    pname = "swiftformat-0_47_11-license";
+    version = "0.47.11";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.11/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_47_12-darwin = {
@@ -30,12 +46,28 @@
       sha256 = "sha256-I0Jp9nNkv9x9XS4Ezn9b0jCz7MDHagtWq9bmx8RNIu8=";
     };
   };
+  swiftformat-0_47_12-license = {
+    pname = "swiftformat-0_47_12-license";
+    version = "0.47.12";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.12/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_47_13-darwin = {
     pname = "swiftformat-0_47_13-darwin";
     version = "0.47.13";
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.13/swiftformat.zip";
       sha256 = "sha256-TIxQUbS5UeE4uu4WTD8KsH5euFv6zYVCWYRsZtf31m0=";
+    };
+  };
+  swiftformat-0_47_13-license = {
+    pname = "swiftformat-0_47_13-license";
+    version = "0.47.13";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.13/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_47_4-darwin = {
@@ -46,12 +78,28 @@
       sha256 = "sha256-b4N8mnLm5agf9tu/AXD8YIGDoXfltwjt83gH/5JAhuc=";
     };
   };
+  swiftformat-0_47_4-license = {
+    pname = "swiftformat-0_47_4-license";
+    version = "0.47.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_47_5-darwin = {
     pname = "swiftformat-0_47_5-darwin";
     version = "0.47.5";
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.5/swiftformat.zip";
       sha256 = "sha256-ieecHd2Gwh+KKeKnaCFZeCDeGjAUsWyBJz+z9KIYEp4=";
+    };
+  };
+  swiftformat-0_47_5-license = {
+    pname = "swiftformat-0_47_5-license";
+    version = "0.47.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_47_6-darwin = {
@@ -62,12 +110,28 @@
       sha256 = "sha256-8vFC5AXO1VIBLnm1KmB/RxuOrV7tC3VSQHIw1huTpwM=";
     };
   };
+  swiftformat-0_47_6-license = {
+    pname = "swiftformat-0_47_6-license";
+    version = "0.47.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_47_7-darwin = {
     pname = "swiftformat-0_47_7-darwin";
     version = "0.47.7";
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.7/swiftformat.zip";
       sha256 = "sha256-RqrbdOYKM1hJwK5bUKA5b9bSn9jp4zCHP95wVvdZrho=";
+    };
+  };
+  swiftformat-0_47_7-license = {
+    pname = "swiftformat-0_47_7-license";
+    version = "0.47.7";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.7/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_47_8-darwin = {
@@ -78,12 +142,28 @@
       sha256 = "sha256-lxI3gbZ5jpiRaWhT/qByZwDE7kQEmkI2VViDrypOWVQ=";
     };
   };
+  swiftformat-0_47_8-license = {
+    pname = "swiftformat-0_47_8-license";
+    version = "0.47.8";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.8/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_47_9-darwin = {
     pname = "swiftformat-0_47_9-darwin";
     version = "0.47.9";
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.47.9/swiftformat.zip";
       sha256 = "sha256-MclO+b5eYsRzwGseTU/lUUHL7dtPjcOTSdZ11kJECBU=";
+    };
+  };
+  swiftformat-0_47_9-license = {
+    pname = "swiftformat-0_47_9-license";
+    version = "0.47.9";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.47.9/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_0-darwin = {
@@ -94,12 +174,28 @@
       sha256 = "sha256-DP+b7ylu2FzVBxTe5WxP5hk6eO5C8ul5HjGtdcB2nM8=";
     };
   };
+  swiftformat-0_48_0-license = {
+    pname = "swiftformat-0_48_0-license";
+    version = "0.48.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_1-darwin = {
     pname = "swiftformat-0_48_1-darwin";
     version = "0.48.1";
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.1/swiftformat.zip";
       sha256 = "sha256-68nXHuRAdN3/QkuxzwXZA2ODa5aKb93c/RZU2kafpWw=";
+    };
+  };
+  swiftformat-0_48_1-license = {
+    pname = "swiftformat-0_48_1-license";
+    version = "0.48.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_1-linux-x86_64 = {
@@ -118,6 +214,14 @@
       sha256 = "sha256-9uLIWN99ANp3jPSVmCntdkQCmG7qFbOrKV5Sah4r3TQ=";
     };
   };
+  swiftformat-0_48_10-license = {
+    pname = "swiftformat-0_48_10-license";
+    version = "0.48.10";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.10/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_10-linux-x86_64 = {
     pname = "swiftformat-0_48_10-linux-x86_64";
     version = "0.48.10";
@@ -132,6 +236,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.11/swiftformat.zip";
       sha256 = "sha256-KrLL+/g6ZaVPqWqkKZffb3sykVXJ9oMRSgmNGq5WgaE=";
+    };
+  };
+  swiftformat-0_48_11-license = {
+    pname = "swiftformat-0_48_11-license";
+    version = "0.48.11";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.11/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_11-linux-x86_64 = {
@@ -150,6 +262,14 @@
       sha256 = "sha256-HhcrWhl+muPGnRtDqYbcal85poPu+aBuIio1poNZ4P8=";
     };
   };
+  swiftformat-0_48_12-license = {
+    pname = "swiftformat-0_48_12-license";
+    version = "0.48.12";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.12/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_12-linux-x86_64 = {
     pname = "swiftformat-0_48_12-linux-x86_64";
     version = "0.48.12";
@@ -164,6 +284,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.13/swiftformat.zip";
       sha256 = "sha256-nSe3lUecz72WBdg1nm7CyZY9teW2Bu7eCL5blLhpcog=";
+    };
+  };
+  swiftformat-0_48_13-license = {
+    pname = "swiftformat-0_48_13-license";
+    version = "0.48.13";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.13/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_13-linux-x86_64 = {
@@ -182,6 +310,14 @@
       sha256 = "sha256-0jhYxwq4SBr7/SK9GWFxexA/oyO2IOl2s5Rq7NdBC4Q=";
     };
   };
+  swiftformat-0_48_14-license = {
+    pname = "swiftformat-0_48_14-license";
+    version = "0.48.14";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.14/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_14-linux-x86_64 = {
     pname = "swiftformat-0_48_14-linux-x86_64";
     version = "0.48.14";
@@ -196,6 +332,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.15/swiftformat.zip";
       sha256 = "sha256-MOyY24ry+/z8ydb7ffSA6E2NIx0Hu7uaOvED/0gfqz0=";
+    };
+  };
+  swiftformat-0_48_15-license = {
+    pname = "swiftformat-0_48_15-license";
+    version = "0.48.15";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.15/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_15-linux-x86_64 = {
@@ -214,6 +358,14 @@
       sha256 = "sha256-Ej0QxyVsNRf6G/FUDRjT0vMUirGC2yojGguT70nxZk4=";
     };
   };
+  swiftformat-0_48_16-license = {
+    pname = "swiftformat-0_48_16-license";
+    version = "0.48.16";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.16/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_16-linux-x86_64 = {
     pname = "swiftformat-0_48_16-linux-x86_64";
     version = "0.48.16";
@@ -228,6 +380,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.17/swiftformat.zip";
       sha256 = "sha256-1SMI8QesIXgfk+TruapZuzxs9EZmWhkEcAsKonAGpdw=";
+    };
+  };
+  swiftformat-0_48_17-license = {
+    pname = "swiftformat-0_48_17-license";
+    version = "0.48.17";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.17/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_17-linux-x86_64 = {
@@ -246,6 +406,14 @@
       sha256 = "sha256-cxYvMJHkSwaX1BAQ4oqG3/2TXNC5J94uICqpQ9L+kM0=";
     };
   };
+  swiftformat-0_48_18-license = {
+    pname = "swiftformat-0_48_18-license";
+    version = "0.48.18";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.18/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_18-linux-x86_64 = {
     pname = "swiftformat-0_48_18-linux-x86_64";
     version = "0.48.18";
@@ -260,6 +428,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.2/swiftformat.zip";
       sha256 = "sha256-6HNjThftHzOCS9vAmfesnb3e7m0YDdCBWZzVlFI1y00=";
+    };
+  };
+  swiftformat-0_48_2-license = {
+    pname = "swiftformat-0_48_2-license";
+    version = "0.48.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_2-linux-x86_64 = {
@@ -278,6 +454,14 @@
       sha256 = "sha256-1vJ5HiWcUDMVlGV+ipV444o1YwM27W1EzLtmRjqTDy8=";
     };
   };
+  swiftformat-0_48_3-license = {
+    pname = "swiftformat-0_48_3-license";
+    version = "0.48.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_3-linux-x86_64 = {
     pname = "swiftformat-0_48_3-linux-x86_64";
     version = "0.48.3";
@@ -292,6 +476,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.4/swiftformat.zip";
       sha256 = "sha256-ptb8cI/4Ua3htsoEeMhLo3CGdj/49XfsaNfbI1KYYcU=";
+    };
+  };
+  swiftformat-0_48_4-license = {
+    pname = "swiftformat-0_48_4-license";
+    version = "0.48.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_4-linux-x86_64 = {
@@ -310,6 +502,14 @@
       sha256 = "sha256-vV34V0m/W3QC9xi946YisX5+TXQOKwbp89Nwq/WhAAc=";
     };
   };
+  swiftformat-0_48_5-license = {
+    pname = "swiftformat-0_48_5-license";
+    version = "0.48.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_5-linux-x86_64 = {
     pname = "swiftformat-0_48_5-linux-x86_64";
     version = "0.48.5";
@@ -324,6 +524,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.6/swiftformat.zip";
       sha256 = "sha256-GigWkwSXzz9bJJcuorXTnMIFLGTkN8yQtvW53f/2YTE=";
+    };
+  };
+  swiftformat-0_48_6-license = {
+    pname = "swiftformat-0_48_6-license";
+    version = "0.48.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_6-linux-x86_64 = {
@@ -342,6 +550,14 @@
       sha256 = "sha256-cuKz2bxViE6gNctdsCC0w0wMPdQxRqs/fzF8QnjZaOw=";
     };
   };
+  swiftformat-0_48_7-license = {
+    pname = "swiftformat-0_48_7-license";
+    version = "0.48.7";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.7/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_7-linux-x86_64 = {
     pname = "swiftformat-0_48_7-linux-x86_64";
     version = "0.48.7";
@@ -356,6 +572,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.48.8/swiftformat.zip";
       sha256 = "sha256-0TgsQ8C8blXLBV0c0+q+qg9TKiLmHvU6UpiOLum1nDU=";
+    };
+  };
+  swiftformat-0_48_8-license = {
+    pname = "swiftformat-0_48_8-license";
+    version = "0.48.8";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.8/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_48_8-linux-x86_64 = {
@@ -374,6 +598,14 @@
       sha256 = "sha256-G4ET6ikb0LADK1m9fzWdmxqzrpW+Viu0GhKCh0LSUmM=";
     };
   };
+  swiftformat-0_48_9-license = {
+    pname = "swiftformat-0_48_9-license";
+    version = "0.48.9";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.48.9/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_48_9-linux-x86_64 = {
     pname = "swiftformat-0_48_9-linux-x86_64";
     version = "0.48.9";
@@ -388,6 +620,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.0/swiftformat.zip";
       sha256 = "sha256-RLYAN0GWJ+ej5lVDcVqytGyzjbgwes+FYu8dJYikC6U=";
+    };
+  };
+  swiftformat-0_49_0-license = {
+    pname = "swiftformat-0_49_0-license";
+    version = "0.49.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_0-linux-x86_64 = {
@@ -406,6 +646,14 @@
       sha256 = "sha256-SE0lgVEJUVW2ajIoNleHxf4zff9bitMUBahWxRs//vk=";
     };
   };
+  swiftformat-0_49_1-license = {
+    pname = "swiftformat-0_49_1-license";
+    version = "0.49.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_1-linux-x86_64 = {
     pname = "swiftformat-0_49_1-linux-x86_64";
     version = "0.49.1";
@@ -420,6 +668,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.10/swiftformat.zip";
       sha256 = "sha256-z5RWIKXcKBC0BiAz8Pk8WBhKGgTCfJ7re/q6YMW3T5U=";
+    };
+  };
+  swiftformat-0_49_10-license = {
+    pname = "swiftformat-0_49_10-license";
+    version = "0.49.10";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.10/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_10-linux-x86_64 = {
@@ -438,6 +694,14 @@
       sha256 = "sha256-kj6G7KerkjW9r2aoxNlXRNBak50J+BO9g1ocG3ldoO8=";
     };
   };
+  swiftformat-0_49_11-license = {
+    pname = "swiftformat-0_49_11-license";
+    version = "0.49.11";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.11/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_11-linux-x86_64 = {
     pname = "swiftformat-0_49_11-linux-x86_64";
     version = "0.49.11";
@@ -452,6 +716,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.12/swiftformat.zip";
       sha256 = "sha256-PGA2GQShAyosd4fSQ1/4Ko6/bZcUpYySpXfSZ2IhjNg=";
+    };
+  };
+  swiftformat-0_49_12-license = {
+    pname = "swiftformat-0_49_12-license";
+    version = "0.49.12";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.12/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_12-linux-x86_64 = {
@@ -470,6 +742,14 @@
       sha256 = "sha256-+Va0erwD/NlJ4dvnX8sD3bc0vTNmu4tngDks3sLJkTE=";
     };
   };
+  swiftformat-0_49_13-license = {
+    pname = "swiftformat-0_49_13-license";
+    version = "0.49.13";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.13/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_13-linux-x86_64 = {
     pname = "swiftformat-0_49_13-linux-x86_64";
     version = "0.49.13";
@@ -484,6 +764,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.14/swiftformat.zip";
       sha256 = "sha256-m9CVP0ZNRNvkOPUzhe/U1QwSLGctviDievKmfZW9iVo=";
+    };
+  };
+  swiftformat-0_49_14-license = {
+    pname = "swiftformat-0_49_14-license";
+    version = "0.49.14";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.14/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_14-linux-x86_64 = {
@@ -502,6 +790,14 @@
       sha256 = "sha256-DNmf8enCkyeusXB4qLkDfRctPVj6JR8jl0SKJWOqObY=";
     };
   };
+  swiftformat-0_49_15-license = {
+    pname = "swiftformat-0_49_15-license";
+    version = "0.49.15";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.15/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_15-linux-x86_64 = {
     pname = "swiftformat-0_49_15-linux-x86_64";
     version = "0.49.15";
@@ -516,6 +812,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.16/swiftformat.zip";
       sha256 = "sha256-p5erhNz3DTblLZ29TB6CxUngk9DhKdlsMHBmBZOigCc=";
+    };
+  };
+  swiftformat-0_49_16-license = {
+    pname = "swiftformat-0_49_16-license";
+    version = "0.49.16";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.16/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_16-linux-x86_64 = {
@@ -534,6 +838,14 @@
       sha256 = "sha256-l46v/cNxa7wIWa7O4Ng4dc86uNhyV3lEjwA1MJ2a2fM=";
     };
   };
+  swiftformat-0_49_17-license = {
+    pname = "swiftformat-0_49_17-license";
+    version = "0.49.17";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.17/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_17-linux-x86_64 = {
     pname = "swiftformat-0_49_17-linux-x86_64";
     version = "0.49.17";
@@ -548,6 +860,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.18/swiftformat.zip";
       sha256 = "sha256-+FqpgdYL0aQDUsZwtDi0Xct8feaGG/2ZszEmtLTOcH0=";
+    };
+  };
+  swiftformat-0_49_18-license = {
+    pname = "swiftformat-0_49_18-license";
+    version = "0.49.18";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.18/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_18-linux-x86_64 = {
@@ -566,6 +886,14 @@
       sha256 = "sha256-r3HY2SuPOZboOym1ao2jnyGLgP5+3zv7ESVfVT179cw=";
     };
   };
+  swiftformat-0_49_2-license = {
+    pname = "swiftformat-0_49_2-license";
+    version = "0.49.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_2-linux-x86_64 = {
     pname = "swiftformat-0_49_2-linux-x86_64";
     version = "0.49.2";
@@ -580,6 +908,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.3/swiftformat.zip";
       sha256 = "sha256-vJScy4LCUBBNpuJsxcaGw2ISKwnSZQwPuDORq3Vgfec=";
+    };
+  };
+  swiftformat-0_49_3-license = {
+    pname = "swiftformat-0_49_3-license";
+    version = "0.49.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_3-linux-x86_64 = {
@@ -598,6 +934,14 @@
       sha256 = "sha256-WdXVcVTbrP0YNmXoleUQxN5RE0LOauQONYhOED3oUas=";
     };
   };
+  swiftformat-0_49_4-license = {
+    pname = "swiftformat-0_49_4-license";
+    version = "0.49.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_4-linux-x86_64 = {
     pname = "swiftformat-0_49_4-linux-x86_64";
     version = "0.49.4";
@@ -612,6 +956,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.5/swiftformat.zip";
       sha256 = "sha256-DPqo5jnzpAg8Rn5VP10eh6IzzsnxfwbCpFK94Nz0sRM=";
+    };
+  };
+  swiftformat-0_49_5-license = {
+    pname = "swiftformat-0_49_5-license";
+    version = "0.49.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_5-linux-x86_64 = {
@@ -630,6 +982,14 @@
       sha256 = "sha256-M4ACLladFiqEv1GSRECCJq4VPwiwMouaew5l81OJKZE=";
     };
   };
+  swiftformat-0_49_6-license = {
+    pname = "swiftformat-0_49_6-license";
+    version = "0.49.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_6-linux-x86_64 = {
     pname = "swiftformat-0_49_6-linux-x86_64";
     version = "0.49.6";
@@ -644,6 +1004,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.7/swiftformat.zip";
       sha256 = "sha256-0Nd5jBTbilZOMiMeDduQGO8siAeBlS6dHFKbpsVrPUg=";
+    };
+  };
+  swiftformat-0_49_7-license = {
+    pname = "swiftformat-0_49_7-license";
+    version = "0.49.7";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.7/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_7-linux-x86_64 = {
@@ -662,6 +1030,14 @@
       sha256 = "sha256-nA+ZGE1V3CHfXQP5qlhqaZw+owG1AQ2kZyOpLFAO8pU=";
     };
   };
+  swiftformat-0_49_8-license = {
+    pname = "swiftformat-0_49_8-license";
+    version = "0.49.8";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.8/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_49_8-linux-x86_64 = {
     pname = "swiftformat-0_49_8-linux-x86_64";
     version = "0.49.8";
@@ -676,6 +1052,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.49.9/swiftformat.zip";
       sha256 = "sha256-dhOpWj3kJ7zq4tkLHNeRtpAt9KIV0bMjqWuCQmviWrs=";
+    };
+  };
+  swiftformat-0_49_9-license = {
+    pname = "swiftformat-0_49_9-license";
+    version = "0.49.9";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.49.9/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_49_9-linux-x86_64 = {
@@ -694,6 +1078,14 @@
       sha256 = "sha256-tS3Is0bRO99JKgHCmyNuC+sty/pX9bj+qxmXeO8Daa4=";
     };
   };
+  swiftformat-0_50_0-license = {
+    pname = "swiftformat-0_50_0-license";
+    version = "0.50.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_50_0-linux-x86_64 = {
     pname = "swiftformat-0_50_0-linux-x86_64";
     version = "0.50.0";
@@ -708,6 +1100,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.1/swiftformat.zip";
       sha256 = "sha256-sUbwP/1AXzM/eJISn8gk8e/wpcToOXJVnZvlm20GHBU=";
+    };
+  };
+  swiftformat-0_50_1-license = {
+    pname = "swiftformat-0_50_1-license";
+    version = "0.50.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_50_1-linux-x86_64 = {
@@ -726,6 +1126,14 @@
       sha256 = "sha256-cBqoO+GCM9jgQGTAPCzlatz3L4O2+h3/ydKiP+CpJvs=";
     };
   };
+  swiftformat-0_50_2-license = {
+    pname = "swiftformat-0_50_2-license";
+    version = "0.50.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_50_2-linux-x86_64 = {
     pname = "swiftformat-0_50_2-linux-x86_64";
     version = "0.50.2";
@@ -740,6 +1148,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.3/swiftformat.zip";
       sha256 = "sha256-KkToflypDX1JfKYm7Xg4FtH9jyTZVQ6TEqDXJApG/UM=";
+    };
+  };
+  swiftformat-0_50_3-license = {
+    pname = "swiftformat-0_50_3-license";
+    version = "0.50.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_50_3-linux-x86_64 = {
@@ -758,6 +1174,14 @@
       sha256 = "sha256-OO1rRoNotWpoO1ZGIVychMaGb4uScOTrXfkZPWqlzjI=";
     };
   };
+  swiftformat-0_50_4-license = {
+    pname = "swiftformat-0_50_4-license";
+    version = "0.50.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_50_4-linux-x86_64 = {
     pname = "swiftformat-0_50_4-linux-x86_64";
     version = "0.50.4";
@@ -772,6 +1196,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.5/swiftformat.zip";
       sha256 = "sha256-7y3hFPA/vq7XJfDSB/BX2JETOC+9gM2ME8S306x0/Y8=";
+    };
+  };
+  swiftformat-0_50_5-license = {
+    pname = "swiftformat-0_50_5-license";
+    version = "0.50.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_50_5-linux-x86_64 = {
@@ -790,6 +1222,14 @@
       sha256 = "sha256-hlii4k+ksuszcymxPQyxz05uCpxiAcGutGDb/bJAzj0=";
     };
   };
+  swiftformat-0_50_6-license = {
+    pname = "swiftformat-0_50_6-license";
+    version = "0.50.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_50_6-linux-x86_64 = {
     pname = "swiftformat-0_50_6-linux-x86_64";
     version = "0.50.6";
@@ -804,6 +1244,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.7/swiftformat.zip";
       sha256 = "sha256-R0Mt2L/4Z3NvQiVa82AkcJ4MyQ8xpgXIG2d4OKxM5hY=";
+    };
+  };
+  swiftformat-0_50_7-license = {
+    pname = "swiftformat-0_50_7-license";
+    version = "0.50.7";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.7/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_50_7-linux-x86_64 = {
@@ -822,6 +1270,14 @@
       sha256 = "sha256-cVbRKK3LnBiQk10Eki1lom5AFPAJoNXNr60aMDeWs7I=";
     };
   };
+  swiftformat-0_50_8-license = {
+    pname = "swiftformat-0_50_8-license";
+    version = "0.50.8";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.8/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_50_8-linux-x86_64 = {
     pname = "swiftformat-0_50_8-linux-x86_64";
     version = "0.50.8";
@@ -836,6 +1292,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.50.9/swiftformat.zip";
       sha256 = "sha256-mf0SCl66ux9d5MnTp8hgHHDDht98nufaMfQlkw7DsM0=";
+    };
+  };
+  swiftformat-0_50_9-license = {
+    pname = "swiftformat-0_50_9-license";
+    version = "0.50.9";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.50.9/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_50_9-linux-x86_64 = {
@@ -854,6 +1318,14 @@
       sha256 = "sha256-74bvhSLgLq/mld44GIDeicYtJ1abPeqtBGsHJZLqiMU=";
     };
   };
+  swiftformat-0_51_0-license = {
+    pname = "swiftformat-0_51_0-license";
+    version = "0.51.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_51_0-linux-x86_64 = {
     pname = "swiftformat-0_51_0-linux-x86_64";
     version = "0.51.0";
@@ -868,6 +1340,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.1/swiftformat.zip";
       sha256 = "sha256-jyDKb0OERCoGmxm1s5shf+nlL5sFb5TZObCtBRP8/m0=";
+    };
+  };
+  swiftformat-0_51_1-license = {
+    pname = "swiftformat-0_51_1-license";
+    version = "0.51.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_51_1-linux-x86_64 = {
@@ -886,6 +1366,14 @@
       sha256 = "sha256-zkBFLqixarwAGfnVmun1MjG1KcBhnd37cp7ISibFRSk=";
     };
   };
+  swiftformat-0_51_10-license = {
+    pname = "swiftformat-0_51_10-license";
+    version = "0.51.10";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.10/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_51_10-linux-x86_64 = {
     pname = "swiftformat-0_51_10-linux-x86_64";
     version = "0.51.10";
@@ -900,6 +1388,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.11/swiftformat.zip";
       sha256 = "sha256-5WXr9sVO6OGsg+SXTtrjTgAvhu2jWKWDjAFx8y8AqyA=";
+    };
+  };
+  swiftformat-0_51_11-license = {
+    pname = "swiftformat-0_51_11-license";
+    version = "0.51.11";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.11/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_51_11-linux-x86_64 = {
@@ -918,6 +1414,14 @@
       sha256 = "sha256-CMtxlbWeoYoDg54Iktp3fv6LYnIB8SVaANBOQOK2eBU=";
     };
   };
+  swiftformat-0_51_12-license = {
+    pname = "swiftformat-0_51_12-license";
+    version = "0.51.12";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.12/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_51_12-linux-x86_64 = {
     pname = "swiftformat-0_51_12-linux-x86_64";
     version = "0.51.12";
@@ -932,6 +1436,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.13/swiftformat.zip";
       sha256 = "sha256-UT85UVlmZfWhX302G0axEe8olbDsdYewKhT5QbOF+Y0=";
+    };
+  };
+  swiftformat-0_51_13-license = {
+    pname = "swiftformat-0_51_13-license";
+    version = "0.51.13";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.13/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_51_13-linux-x86_64 = {
@@ -950,6 +1462,14 @@
       sha256 = "sha256-tDzIwwFbfhD30NN8Rm1BmHMzeSF0yt91fSou+RAw6MA=";
     };
   };
+  swiftformat-0_51_15-license = {
+    pname = "swiftformat-0_51_15-license";
+    version = "0.51.15";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.15/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_51_15-linux-x86_64 = {
     pname = "swiftformat-0_51_15-linux-x86_64";
     version = "0.51.15";
@@ -964,6 +1484,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.2/swiftformat.zip";
       sha256 = "sha256-oKWHq2L5hbQ5cOYyCR7gB5eLPrQbA0MenARxonf6Ok4=";
+    };
+  };
+  swiftformat-0_51_2-license = {
+    pname = "swiftformat-0_51_2-license";
+    version = "0.51.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_51_2-linux-x86_64 = {
@@ -982,6 +1510,14 @@
       sha256 = "sha256-7xhmA4w26l3G9fYD6IkbUXsq7gzcUcrVbfwgAOXyp3w=";
     };
   };
+  swiftformat-0_51_3-license = {
+    pname = "swiftformat-0_51_3-license";
+    version = "0.51.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_51_3-linux-x86_64 = {
     pname = "swiftformat-0_51_3-linux-x86_64";
     version = "0.51.3";
@@ -996,6 +1532,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.4/swiftformat.zip";
       sha256 = "sha256-p/VNCCXiONmVEQyCUTNJW5rmaQrUu9ezp6VsaL596Qc=";
+    };
+  };
+  swiftformat-0_51_4-license = {
+    pname = "swiftformat-0_51_4-license";
+    version = "0.51.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_51_4-linux-x86_64 = {
@@ -1014,6 +1558,14 @@
       sha256 = "sha256-rKmmALAF0LnbfjJpvnZvyrFYsJvUvL71QB1dPTD/14o=";
     };
   };
+  swiftformat-0_51_5-license = {
+    pname = "swiftformat-0_51_5-license";
+    version = "0.51.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_51_5-linux-x86_64 = {
     pname = "swiftformat-0_51_5-linux-x86_64";
     version = "0.51.5";
@@ -1028,6 +1580,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.6/swiftformat.zip";
       sha256 = "sha256-dU80a1aGWODidDui63J5tBbQnzNEF5P0OTAx21ewpVQ=";
+    };
+  };
+  swiftformat-0_51_6-license = {
+    pname = "swiftformat-0_51_6-license";
+    version = "0.51.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_51_6-linux-x86_64 = {
@@ -1046,6 +1606,14 @@
       sha256 = "sha256-SQDZvqw5ju2esc6mE8vP6Ttz6fHY0tgLCh76mZ2bojQ=";
     };
   };
+  swiftformat-0_51_7-license = {
+    pname = "swiftformat-0_51_7-license";
+    version = "0.51.7";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.7/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_51_7-linux-x86_64 = {
     pname = "swiftformat-0_51_7-linux-x86_64";
     version = "0.51.7";
@@ -1060,6 +1628,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.51.8/swiftformat.zip";
       sha256 = "sha256-/dylzYzcpYGbKYwy0uZZqHLAnCbyDjdx71abC2+04WE=";
+    };
+  };
+  swiftformat-0_51_8-license = {
+    pname = "swiftformat-0_51_8-license";
+    version = "0.51.8";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.8/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_51_8-linux-x86_64 = {
@@ -1078,6 +1654,14 @@
       sha256 = "sha256-9dtNfhzA4Nr3cmaYO61ZMfuV9v/Ozwj6GqGf27fFP8Q=";
     };
   };
+  swiftformat-0_51_9-license = {
+    pname = "swiftformat-0_51_9-license";
+    version = "0.51.9";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.51.9/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_51_9-linux-x86_64 = {
     pname = "swiftformat-0_51_9-linux-x86_64";
     version = "0.51.9";
@@ -1092,6 +1676,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.0/swiftformat.zip";
       sha256 = "sha256-WinJ+S0XGY7RUkm16knmXJQY/WzTdy3FNOsoVhNJuGk=";
+    };
+  };
+  swiftformat-0_52_0-license = {
+    pname = "swiftformat-0_52_0-license";
+    version = "0.52.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_52_0-linux-x86_64 = {
@@ -1110,6 +1702,14 @@
       sha256 = "sha256-VGq3YQjiLkOe9qIbOwiO7IEoyRlkbqgDj1cStO5NASo=";
     };
   };
+  swiftformat-0_52_1-license = {
+    pname = "swiftformat-0_52_1-license";
+    version = "0.52.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_52_1-linux-x86_64 = {
     pname = "swiftformat-0_52_1-linux-x86_64";
     version = "0.52.1";
@@ -1124,6 +1724,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.10/swiftformat.zip";
       sha256 = "sha256-49703icYwAg223D1iLM2oNABXskpr437oeiBCuIHoOs=";
+    };
+  };
+  swiftformat-0_52_10-license = {
+    pname = "swiftformat-0_52_10-license";
+    version = "0.52.10";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.10/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_52_10-linux-x86_64 = {
@@ -1142,6 +1750,14 @@
       sha256 = "sha256-StQ/J1+FcWW74LqYJHPCKZW6HrtpzISyYytuWfrMAJk=";
     };
   };
+  swiftformat-0_52_11-license = {
+    pname = "swiftformat-0_52_11-license";
+    version = "0.52.11";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.11/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_52_11-linux-x86_64 = {
     pname = "swiftformat-0_52_11-linux-x86_64";
     version = "0.52.11";
@@ -1156,6 +1772,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.2/swiftformat.zip";
       sha256 = "sha256-Q8RpPzxcWku5t8nHr6i3kCVkRSD59+Shj+dV/S29sF8=";
+    };
+  };
+  swiftformat-0_52_2-license = {
+    pname = "swiftformat-0_52_2-license";
+    version = "0.52.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_52_2-linux-x86_64 = {
@@ -1174,6 +1798,14 @@
       sha256 = "sha256-skG3Tnk5plD7wtVyv3aE/WJlaKhJok1vRyH3K1i/MYs=";
     };
   };
+  swiftformat-0_52_3-license = {
+    pname = "swiftformat-0_52_3-license";
+    version = "0.52.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_52_3-linux-x86_64 = {
     pname = "swiftformat-0_52_3-linux-x86_64";
     version = "0.52.3";
@@ -1188,6 +1820,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.4/swiftformat.zip";
       sha256 = "sha256-aOSXXNbkA7n31rm08/ZM97vRFEQqOVAlML8gGR0GDm0=";
+    };
+  };
+  swiftformat-0_52_4-license = {
+    pname = "swiftformat-0_52_4-license";
+    version = "0.52.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_52_4-linux-x86_64 = {
@@ -1206,6 +1846,14 @@
       sha256 = "sha256-kjLAUKIchHMK+B6Y6BC+RZDPV3H2QcwAbDRXPzV0Q3k=";
     };
   };
+  swiftformat-0_52_5-license = {
+    pname = "swiftformat-0_52_5-license";
+    version = "0.52.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_52_5-linux-x86_64 = {
     pname = "swiftformat-0_52_5-linux-x86_64";
     version = "0.52.5";
@@ -1220,6 +1868,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.6/swiftformat.zip";
       sha256 = "sha256-PHxNlXvDAfog7Bv5WcHbmxQnDS33nBI77LIb7pY7F3Y=";
+    };
+  };
+  swiftformat-0_52_6-license = {
+    pname = "swiftformat-0_52_6-license";
+    version = "0.52.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_52_6-linux-x86_64 = {
@@ -1238,6 +1894,14 @@
       sha256 = "sha256-ngv0vNjqF15+rp56SP9J73E8GZ3AcqFSJi0A0j3IdjU=";
     };
   };
+  swiftformat-0_52_7-license = {
+    pname = "swiftformat-0_52_7-license";
+    version = "0.52.7";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.7/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_52_7-linux-x86_64 = {
     pname = "swiftformat-0_52_7-linux-x86_64";
     version = "0.52.7";
@@ -1252,6 +1916,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.8/swiftformat.zip";
       sha256 = "sha256-fdsLFZ5yKK79v6iujeC50TlpPHzCiwIgfcqjfq7qEJk=";
+    };
+  };
+  swiftformat-0_52_8-license = {
+    pname = "swiftformat-0_52_8-license";
+    version = "0.52.8";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.8/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_52_8-linux-x86_64 = {
@@ -1270,12 +1942,28 @@
       sha256 = "sha256-jL905135KQ5rJSL60okiFT8NBTlTNkAGF0UeY1GwZqE=";
     };
   };
+  swiftformat-0_52_9-license = {
+    pname = "swiftformat-0_52_9-license";
+    version = "0.52.9";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.52.9/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_53_0-darwin = {
     pname = "swiftformat-0_53_0-darwin";
     version = "0.53.0";
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.0/swiftformat.zip";
       sha256 = "sha256-xZ43i0g3cTlUj8CXVzb+n8oGhsu7Ij9wPorwJ1LVwVM=";
+    };
+  };
+  swiftformat-0_53_0-license = {
+    pname = "swiftformat-0_53_0-license";
+    version = "0.53.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_53_0-linux-x86_64 = {
@@ -1294,6 +1982,14 @@
       sha256 = "sha256-WjU0oTuxCQWuXKreOwhSphyAZyVrR5D07gBkBiumx5c=";
     };
   };
+  swiftformat-0_53_1-license = {
+    pname = "swiftformat-0_53_1-license";
+    version = "0.53.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_53_1-linux-x86_64 = {
     pname = "swiftformat-0_53_1-linux-x86_64";
     version = "0.53.1";
@@ -1308,6 +2004,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.10/swiftformat.zip";
       sha256 = "sha256-F0C3acU6lWRDKQX1o5uRPizKEz8W2bWYqjKy/lS5MxY=";
+    };
+  };
+  swiftformat-0_53_10-license = {
+    pname = "swiftformat-0_53_10-license";
+    version = "0.53.10";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.10/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_53_10-linux-x86_64 = {
@@ -1326,6 +2030,14 @@
       sha256 = "sha256-sE8NOkyfsD8Nq5TOng63vFoV4jfut77kQmpOqUIjtC0=";
     };
   };
+  swiftformat-0_53_2-license = {
+    pname = "swiftformat-0_53_2-license";
+    version = "0.53.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_53_2-linux-x86_64 = {
     pname = "swiftformat-0_53_2-linux-x86_64";
     version = "0.53.2";
@@ -1340,6 +2052,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.3/swiftformat.zip";
       sha256 = "sha256-EBTLMKdwDTjQ4hdMoo+YBd70Bq0kW3B6AHjZX1R8gxg=";
+    };
+  };
+  swiftformat-0_53_3-license = {
+    pname = "swiftformat-0_53_3-license";
+    version = "0.53.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_53_3-linux-x86_64 = {
@@ -1358,6 +2078,14 @@
       sha256 = "sha256-oYQE0MoDSVoOkPdPVUpzrxab2d1wgyHwDSDeZFzYIw0=";
     };
   };
+  swiftformat-0_53_4-license = {
+    pname = "swiftformat-0_53_4-license";
+    version = "0.53.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_53_4-linux-x86_64 = {
     pname = "swiftformat-0_53_4-linux-x86_64";
     version = "0.53.4";
@@ -1372,6 +2100,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.5/swiftformat.zip";
       sha256 = "sha256-iWn0qjcIOcEHjAXBxpxG1N2SD2xCoqmOTJV0Fwoptg4=";
+    };
+  };
+  swiftformat-0_53_5-license = {
+    pname = "swiftformat-0_53_5-license";
+    version = "0.53.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_53_5-linux-x86_64 = {
@@ -1390,6 +2126,14 @@
       sha256 = "sha256-eifvT6BEzVWDzyBQjvwsiADEXT0O0t4qrVbF3URwFow=";
     };
   };
+  swiftformat-0_53_6-license = {
+    pname = "swiftformat-0_53_6-license";
+    version = "0.53.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_53_6-linux-x86_64 = {
     pname = "swiftformat-0_53_6-linux-x86_64";
     version = "0.53.6";
@@ -1404,6 +2148,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.7/swiftformat.zip";
       sha256 = "sha256-/bRtW0q87A0/+JzgAzhuo6AV4/+BsjT65hVakaUOsnk=";
+    };
+  };
+  swiftformat-0_53_7-license = {
+    pname = "swiftformat-0_53_7-license";
+    version = "0.53.7";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.7/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_53_7-linux-x86_64 = {
@@ -1422,6 +2174,14 @@
       sha256 = "sha256-SvoE9kddOkip22sUf+r6lFYkYQlEiHHV/2VUw55ShiI=";
     };
   };
+  swiftformat-0_53_8-license = {
+    pname = "swiftformat-0_53_8-license";
+    version = "0.53.8";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.8/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_53_8-linux-x86_64 = {
     pname = "swiftformat-0_53_8-linux-x86_64";
     version = "0.53.8";
@@ -1436,6 +2196,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.9/swiftformat.zip";
       sha256 = "sha256-HSYQRM/ppem9HBN0HWzawDLLWCoOS7sv9VdneITYbHg=";
+    };
+  };
+  swiftformat-0_53_9-license = {
+    pname = "swiftformat-0_53_9-license";
+    version = "0.53.9";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.53.9/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_53_9-linux-x86_64 = {
@@ -1454,6 +2222,14 @@
       sha256 = "sha256-+Vxo9tdvhLoGvCs1Kg0d+8R+rZF+/VG65VhcKNULxag=";
     };
   };
+  swiftformat-0_54_0-license = {
+    pname = "swiftformat-0_54_0-license";
+    version = "0.54.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.54.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_54_0-linux-x86_64 = {
     pname = "swiftformat-0_54_0-linux-x86_64";
     version = "0.54.0";
@@ -1468,6 +2244,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.54.1/swiftformat.zip";
       sha256 = "sha256-dDnuj9e7E8lshWqXcdcPsrdb8BhzMjIq3Fx3ByUqUf0=";
+    };
+  };
+  swiftformat-0_54_1-license = {
+    pname = "swiftformat-0_54_1-license";
+    version = "0.54.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.54.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_54_1-linux-x86_64 = {
@@ -1486,6 +2270,14 @@
       sha256 = "sha256-uSd1F009DMzmjVRQp2E2cKGNzZEtXEtNrb5bBvBg568=";
     };
   };
+  swiftformat-0_54_2-license = {
+    pname = "swiftformat-0_54_2-license";
+    version = "0.54.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.54.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_54_2-linux-x86_64 = {
     pname = "swiftformat-0_54_2-linux-x86_64";
     version = "0.54.2";
@@ -1500,6 +2292,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.54.3/swiftformat.zip";
       sha256 = "sha256-k2d7yK1TBARAs6et6jD3m5+8mXbYd0mWMYl/SjmiQK8=";
+    };
+  };
+  swiftformat-0_54_3-license = {
+    pname = "swiftformat-0_54_3-license";
+    version = "0.54.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.54.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_54_3-linux-x86_64 = {
@@ -1518,6 +2318,14 @@
       sha256 = "sha256-R95eWClouxOIo7vgffwlRSSkEBv0ap3tIqmuzOLAWLg=";
     };
   };
+  swiftformat-0_54_4-license = {
+    pname = "swiftformat-0_54_4-license";
+    version = "0.54.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.54.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_54_4-linux-x86_64 = {
     pname = "swiftformat-0_54_4-linux-x86_64";
     version = "0.54.4";
@@ -1532,6 +2340,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.54.5/swiftformat.zip";
       sha256 = "sha256-R8GziLeWlJT2cPHhIzD3SBE2IvZsnh8xacYXXKgHfWc=";
+    };
+  };
+  swiftformat-0_54_5-license = {
+    pname = "swiftformat-0_54_5-license";
+    version = "0.54.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.54.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_54_5-linux-x86_64 = {
@@ -1550,6 +2366,14 @@
       sha256 = "sha256-4Yp3H3KvadTwB9df/3BwVg79f8V6McZnesRDygwf1FI=";
     };
   };
+  swiftformat-0_54_6-license = {
+    pname = "swiftformat-0_54_6-license";
+    version = "0.54.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.54.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_54_6-linux-x86_64 = {
     pname = "swiftformat-0_54_6-linux-x86_64";
     version = "0.54.6";
@@ -1564,6 +2388,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.55.0/swiftformat.zip";
       sha256 = "sha256-HqEB0E0FcmVo+En8ez0nSr3YE9I0I5Eu6m3BJ7ntHoc=";
+    };
+  };
+  swiftformat-0_55_0-license = {
+    pname = "swiftformat-0_55_0-license";
+    version = "0.55.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.55.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_55_0-linux-x86_64 = {
@@ -1582,6 +2414,14 @@
       sha256 = "sha256-nFL1qdHZMO1ehJSJ65q2AZrBloiCCZM+RP859gHR25Q=";
     };
   };
+  swiftformat-0_55_1-license = {
+    pname = "swiftformat-0_55_1-license";
+    version = "0.55.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.55.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_55_1-linux-x86_64 = {
     pname = "swiftformat-0_55_1-linux-x86_64";
     version = "0.55.1";
@@ -1596,6 +2436,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.55.2/swiftformat.zip";
       sha256 = "sha256-i7PsLtG0oT33TXktzK2DNzvY7pU+qG/BqvN1G6k4Q9A=";
+    };
+  };
+  swiftformat-0_55_2-license = {
+    pname = "swiftformat-0_55_2-license";
+    version = "0.55.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.55.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_55_2-linux-x86_64 = {
@@ -1614,6 +2462,14 @@
       sha256 = "sha256-xfGP9TkukvrJJ9/a9mAXAJpW+uD29VaR67h4SD9SHSI=";
     };
   };
+  swiftformat-0_55_3-license = {
+    pname = "swiftformat-0_55_3-license";
+    version = "0.55.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.55.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_55_3-linux-x86_64 = {
     pname = "swiftformat-0_55_3-linux-x86_64";
     version = "0.55.3";
@@ -1628,6 +2484,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.55.4/swiftformat.zip";
       sha256 = "sha256-wlK6cQmyR61OFyp6IM7QLw+RMv/fN5yhzY42AnKVCDY=";
+    };
+  };
+  swiftformat-0_55_4-license = {
+    pname = "swiftformat-0_55_4-license";
+    version = "0.55.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.55.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_55_4-linux-x86_64 = {
@@ -1646,6 +2510,14 @@
       sha256 = "sha256-79173oo5iQcNULQfBXRbKvb3cVBvaoMXNRtcF3p+lzI=";
     };
   };
+  swiftformat-0_55_5-license = {
+    pname = "swiftformat-0_55_5-license";
+    version = "0.55.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.55.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_55_5-linux-x86_64 = {
     pname = "swiftformat-0_55_5-linux-x86_64";
     version = "0.55.5";
@@ -1660,6 +2532,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.55.6/swiftformat.zip";
       sha256 = "sha256-GAwxHRJ8wNAgDXwmHivH/JvT/Jvfx0HRWk2HicZ1qtU=";
+    };
+  };
+  swiftformat-0_55_6-license = {
+    pname = "swiftformat-0_55_6-license";
+    version = "0.55.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.55.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_55_6-linux-aarch64 = {
@@ -1686,6 +2566,14 @@
       sha256 = "sha256-FlY/JabP/Nd920aKr4ATIRjeNe/8AP/O1mYHPDxyiQw=";
     };
   };
+  swiftformat-0_56_0-license = {
+    pname = "swiftformat-0_56_0-license";
+    version = "0.56.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.56.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_56_0-linux-aarch64 = {
     pname = "swiftformat-0_56_0-linux-aarch64";
     version = "0.56.0";
@@ -1708,6 +2596,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.56.1/swiftformat.zip";
       sha256 = "sha256-Sq4yZqEsdmM/Ny3RsLP3UpA32YLyyr++CbfSfBhfSPo=";
+    };
+  };
+  swiftformat-0_56_1-license = {
+    pname = "swiftformat-0_56_1-license";
+    version = "0.56.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.56.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_56_1-linux-aarch64 = {
@@ -1734,6 +2630,14 @@
       sha256 = "sha256-huEX/+v0A1gb0fxmu5MVyvC5vgSoQVRmzJqOi+9mXj0=";
     };
   };
+  swiftformat-0_56_2-license = {
+    pname = "swiftformat-0_56_2-license";
+    version = "0.56.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.56.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_56_2-linux-aarch64 = {
     pname = "swiftformat-0_56_2-linux-aarch64";
     version = "0.56.2";
@@ -1756,6 +2660,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.56.3/swiftformat.zip";
       sha256 = "sha256-TLtjAK+d3KjW22CTgKvev79vOjxHBfiX0/u1oYzna3I=";
+    };
+  };
+  swiftformat-0_56_3-license = {
+    pname = "swiftformat-0_56_3-license";
+    version = "0.56.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.56.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_56_3-linux-aarch64 = {
@@ -1782,6 +2694,14 @@
       sha256 = "sha256-fWaViT6//tjr46RNQEWrVjTqffqo9EiS/BLSGiumIe4=";
     };
   };
+  swiftformat-0_56_4-license = {
+    pname = "swiftformat-0_56_4-license";
+    version = "0.56.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.56.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_56_4-linux-aarch64 = {
     pname = "swiftformat-0_56_4-linux-aarch64";
     version = "0.56.4";
@@ -1804,6 +2724,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.0/swiftformat.zip";
       sha256 = "sha256-lHEb+9H8b12YA32WEcOdDCO4myaY7lvySvUQePriKyU=";
+    };
+  };
+  swiftformat-0_57_0-license = {
+    pname = "swiftformat-0_57_0-license";
+    version = "0.57.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.57.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_57_0-linux-aarch64 = {
@@ -1830,6 +2758,14 @@
       sha256 = "sha256-C8d3/AB1EjILQvO0iC/kDLehsIZZuXV8h4qBXXYFV+8=";
     };
   };
+  swiftformat-0_57_1-license = {
+    pname = "swiftformat-0_57_1-license";
+    version = "0.57.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.57.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_57_1-linux-aarch64 = {
     pname = "swiftformat-0_57_1-linux-aarch64";
     version = "0.57.1";
@@ -1852,6 +2788,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.57.2/swiftformat.zip";
       sha256 = "sha256-gzP+35W1xfBNlmFNIEkyeBnghNzXoPnzjaxZqmBKC3Q=";
+    };
+  };
+  swiftformat-0_57_2-license = {
+    pname = "swiftformat-0_57_2-license";
+    version = "0.57.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.57.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_57_2-linux-aarch64 = {
@@ -1878,6 +2822,14 @@
       sha256 = "sha256-aSC43vY1p8yyB2u2XuQyZqUANXsrbrdKcGqJwpFiDyw=";
     };
   };
+  swiftformat-0_58_0-license = {
+    pname = "swiftformat-0_58_0-license";
+    version = "0.58.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.58.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_58_0-linux-aarch64 = {
     pname = "swiftformat-0_58_0-linux-aarch64";
     version = "0.58.0";
@@ -1900,6 +2852,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.1/swiftformat.zip";
       sha256 = "sha256-4hfOdaChHkQhBwKNCfSjRGOr6mS4lOiB0URtnQhj8j4=";
+    };
+  };
+  swiftformat-0_58_1-license = {
+    pname = "swiftformat-0_58_1-license";
+    version = "0.58.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.58.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_58_1-linux-aarch64 = {
@@ -1926,6 +2886,14 @@
       sha256 = "sha256-rPg/YBywiK9aH19pJ57EcKlqDDIvNj/m4/Hu4NpFJ1U=";
     };
   };
+  swiftformat-0_58_2-license = {
+    pname = "swiftformat-0_58_2-license";
+    version = "0.58.2";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.58.2/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_58_2-linux-aarch64 = {
     pname = "swiftformat-0_58_2-linux-aarch64";
     version = "0.58.2";
@@ -1948,6 +2916,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.3/swiftformat.zip";
       sha256 = "sha256-wmjldZ4IkfKZKdHxXWhAf0AXWiNkTyQ7FRz+XMutDYw=";
+    };
+  };
+  swiftformat-0_58_3-license = {
+    pname = "swiftformat-0_58_3-license";
+    version = "0.58.3";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.58.3/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_58_3-linux-aarch64 = {
@@ -1974,6 +2950,14 @@
       sha256 = "sha256-oarefBzHOI60rwDg1W2z2xmfFXuqReR5kAJDi00BRU4=";
     };
   };
+  swiftformat-0_58_4-license = {
+    pname = "swiftformat-0_58_4-license";
+    version = "0.58.4";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.58.4/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_58_4-linux-aarch64 = {
     pname = "swiftformat-0_58_4-linux-aarch64";
     version = "0.58.4";
@@ -1996,6 +2980,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.5/swiftformat.zip";
       sha256 = "sha256-49Weu7qzVn+fRg4tJJg+1E3jUb2AuetbPLFNBjF98Fw=";
+    };
+  };
+  swiftformat-0_58_5-license = {
+    pname = "swiftformat-0_58_5-license";
+    version = "0.58.5";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.58.5/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_58_5-linux-aarch64 = {
@@ -2022,6 +3014,14 @@
       sha256 = "sha256-QrHgjT2/r5EiSyXfpnX9wx9stec/7oxYywpu5EyU3xg=";
     };
   };
+  swiftformat-0_58_6-license = {
+    pname = "swiftformat-0_58_6-license";
+    version = "0.58.6";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.58.6/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_58_6-linux-aarch64 = {
     pname = "swiftformat-0_58_6-linux-aarch64";
     version = "0.58.6";
@@ -2044,6 +3044,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.7/swiftformat.zip";
       sha256 = "sha256-fkP44U4gie64PWlYzhYv+pDJMw8/MJygVGk2FLKxskE=";
+    };
+  };
+  swiftformat-0_58_7-license = {
+    pname = "swiftformat-0_58_7-license";
+    version = "0.58.7";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.58.7/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_58_7-linux-aarch64 = {
@@ -2070,6 +3078,14 @@
       sha256 = "sha256-pYR9X544u3rP/g6lZTGaUhDmXXIOz2Ke/+ZoKOdyo4c=";
     };
   };
+  swiftformat-0_59_0-license = {
+    pname = "swiftformat-0_59_0-license";
+    version = "0.59.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.59.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_59_0-linux-aarch64 = {
     pname = "swiftformat-0_59_0-linux-aarch64";
     version = "0.59.0";
@@ -2092,6 +3108,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.59.1/swiftformat.zip";
       sha256 = "sha256-i2KJtgikTnPNOFHDWJ29fFU/MsyAWqVLOkls4rkP6+c=";
+    };
+  };
+  swiftformat-0_59_1-license = {
+    pname = "swiftformat-0_59_1-license";
+    version = "0.59.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.59.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_59_1-linux-aarch64 = {
@@ -2118,6 +3142,14 @@
       sha256 = "sha256-j+mq7AM/yZTL8HNm7v+tKWNgHRoOl1R0VGpgbq1uWjk=";
     };
   };
+  swiftformat-0_60_0-license = {
+    pname = "swiftformat-0_60_0-license";
+    version = "0.60.0";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.60.0/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
+    };
+  };
   swiftformat-0_60_0-linux-aarch64 = {
     pname = "swiftformat-0_60_0-linux-aarch64";
     version = "0.60.0";
@@ -2140,6 +3172,14 @@
     src = fetchurl {
       url = "https://github.com/nicklockwood/SwiftFormat/releases/download/0.60.1/swiftformat.zip";
       sha256 = "sha256-I7UMdfQiPEd+gigzxM+Bmhyau7bQDokpAL2hw6gjGv0=";
+    };
+  };
+  swiftformat-0_60_1-license = {
+    pname = "swiftformat-0_60_1-license";
+    version = "0.60.1";
+    src = fetchurl {
+      url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/0.60.1/LICENSE.md";
+      sha256 = "sha256-UevQBwXP6krYQqRKmDyFthgGVI3Lt1+2GKzD55PaHNQ=";
     };
   };
   swiftformat-0_60_1-linux-aarch64 = {
