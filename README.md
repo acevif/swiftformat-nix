@@ -10,27 +10,40 @@ Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages fo
 nix run github:acevif/swiftformat-nix#swiftformat_0_60_1 -- --version
 ```
 
+You can also use the rolling alias:
+
+```bash
+nix run github:acevif/swiftformat-nix#swiftformat -- --version
+```
+
 ### As a flake input
 
 ```nix
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
     swiftformat-nix.url = "github:acevif/swiftformat-nix";
   };
 
-  outputs = { self, nixpkgs, swiftformat-nix, ... }:
+  outputs = { nixpkgs, swiftformat-nix, ... }:
     let
       system = "aarch64-darwin";
       pkgs = import nixpkgs { inherit system; };
     in {
       devShells.${system}.default = pkgs.mkShell {
         packages = [
-          swiftformat-nix.packages.${system}.swiftformat_0_58_7
+          swiftformat-nix.packages.${system}.swiftformat_0_60_1
         ];
       };
     };
 }
+```
+
+Then run:
+
+```bash
+nix develop
+swiftformat --version
 ```
 
 ### nix profile install
