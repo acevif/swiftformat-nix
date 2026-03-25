@@ -70,6 +70,7 @@ nix profile install github:acevif/swiftformat-nix#swiftformat_0_60_1
 - `swiftformat_0_49` — 0.49.x latest (`x86_64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat_0_48` — 0.48.x latest (`x86_64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat_0_47` — 0.47.x latest (`x86_64-darwin`, `aarch64-darwin`)
+- `swiftformat_0` — 0.x.x latest (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat` — latest (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `default` — latest (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 

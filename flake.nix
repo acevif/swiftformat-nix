@@ -1104,6 +1104,7 @@
               swiftformat_0_58 = versioned.swiftformat_0_58_7;
               swiftformat_0_59 = versioned.swiftformat_0_59_1;
               swiftformat_0_60 = versioned.swiftformat_0_60_1;
+              swiftformat_0 = versioned.swiftformat_0_60_1;
               swiftformat = versioned.swiftformat_0_60_1;
               default = versioned.swiftformat_0_60_1;
             }
