@@ -2,8 +2,16 @@
   description = "Versioned SwiftFormat packages for Nix";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    flake-parts.url = "github:hercules-ci/flake-parts";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    flake-parts = {
+      url = "github:hercules-ci/flake-parts";
+      inputs.nixpkgs-lib.follows = "nixpkgs";
+    };
+    ignore = {
+      url = "github:acevif/ignore";
+      inputs.flake-parts.follows = "flake-parts";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -17,7 +25,12 @@
       ];
 
       perSystem =
-        { pkgs, system, ... }:
+        {
+          pkgs,
+          system,
+          inputs',
+          ...
+        }:
         let
           mkSwiftformat = args: pkgs.callPackage ./packages/mkSwiftformat.nix args;
           versioned = {
@@ -1099,7 +1112,10 @@
           formatter = pkgs.nixfmt;
 
           devShells.default = pkgs.mkShell {
-            packages = [ pkgs.nvfetcher ];
+            packages = [
+              inputs'.ignore.packages.default
+              pkgs.nvfetcher
+            ];
           };
         };
     };
