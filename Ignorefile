@@ -1,0 +1,8 @@
+gitignore.io:
+  - direnv
+
+github:
+  - Nix
+paths-ignore:
+  - .env.local
+  - .claude/settings.local.json

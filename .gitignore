@@ -1,3 +1,20 @@
+# This .gitignore file is auto-generated. Do not edit!
+# Edit Ignorefile instead.
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/direnv
+# Edit at https://www.toptal.com/developers/gitignore?templates=direnv
+
+### direnv ###
+.direnv
+.envrc
+
+# End of https://www.toptal.com/developers/gitignore/api/direnv
+
+
+
+# Downloaded from https://raw.githubusercontent.com/github/gitignore/main/Nix.gitignore
+
 # Ignore build outputs from performing a nix-build or `nix build` command
 result
 result-*
@@ -5,5 +22,9 @@ result-*
 # Ignore automatically generated direnv output
 .direnv
 
-# Ignore local Claude Code settings
+
+
+### Project specific settings ###
+
+.env.local
 .claude/settings.local.json
