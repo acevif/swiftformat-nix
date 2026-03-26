@@ -36,9 +36,10 @@ The primary task in this repository is packaging new SwiftFormat releases.
 
 - Package names in `flake.nix` use underscore separators (e.g. `swiftformat_0_57_0`)
 
-## Alias Conventions
+### Alias Conventions
 
-- `swiftformat_0_XX` = latest patch of that minor series
+- `swiftformat_<major>_<minor>` = latest patch of that minor series (e.g. `swiftformat_0_47` = latest version of 0.47.x)
+- `swiftformat_<major>` = latest of that major series (e.g. `swiftformat_0` = latest version of 0.x.x)
 - `swiftformat` / `default` = overall latest
 
 ## Commit Message Convention
