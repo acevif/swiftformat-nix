@@ -12,6 +12,12 @@ nix flake check --all-systems
 
 # Build a specific version
 nix build .#swiftformat_X_Y_Z
+
+# Validate prek config
+prek validate-config prek.toml
+
+# Run all configured hooks manually
+prek run --all-files
 ```
 
 ## Adding a New Version
@@ -38,6 +44,14 @@ The primary task in this repository is packaging new SwiftFormat releases.
 ## Commit Message Convention
 
 Follow [Conventional Commits](https://www.conventionalcommits.org/).
+
+## Pre-commit Hooks
+
+- `nix develop` makes `prek` available in the shell from `nixpkgs-unstable`.
+- The repo uses `prek.toml` for `prek`.
+- Install hooks manually from the repository root with `prek install`.
+- See `prek --help` for commands.
+- See https://github.com/j178/prek/blob/master/README.md for details.
 
 ## Notes
 
