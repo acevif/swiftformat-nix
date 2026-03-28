@@ -1117,6 +1117,7 @@
           devShells.default = pkgs.mkShell {
             packages = [
               inputs'.ignore.packages.default
+              pkgs.gh
               pkgs.nvfetcher
               unstablePkgs.prek
             ];
