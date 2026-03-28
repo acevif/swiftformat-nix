@@ -7,6 +7,11 @@
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
+    devshell = {
+      url = "path:./nix/devshell";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.flake-parts.follows = "flake-parts";
+    };
   };
 
   outputs =
@@ -1105,6 +1110,7 @@
           );
 
           formatter = pkgs.nixfmt;
+          devShells.default = inputs.devshell.devShells.${system}.default;
         };
     };
 }
