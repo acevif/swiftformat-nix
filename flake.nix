@@ -3,13 +3,16 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    # Use nixpkgs-unstable for a prek version that supports the current prek.toml format.
+    nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-parts = {
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
-    devshell = {
-      url = "path:./nix/devshell";
+    ignore = {
+      url = "github:acevif/ignore";
       inputs.nixpkgs.follows = "nixpkgs";
+      inputs.nixpkgs-unstable.follows = "nixpkgs-unstable";
       inputs.flake-parts.follows = "flake-parts";
     };
   };
@@ -28,10 +31,12 @@
         {
           pkgs,
           system,
+          inputs',
           ...
         }:
         let
           mkSwiftformat = args: pkgs.callPackage ./packages/mkSwiftformat.nix args;
+          unstablePkgs = import inputs.nixpkgs-unstable { inherit system; };
           versioned = {
             swiftformat_0_47_4 = mkSwiftformat {
               versionId = "0_47_4";
@@ -1110,7 +1115,17 @@
           );
 
           formatter = pkgs.nixfmt;
-          devShells.default = inputs.devshell.devShells.${system}.default;
+          devShells.default = pkgs.mkShell {
+            packages = [
+              inputs'.ignore.packages.default
+              pkgs.gh
+              pkgs.nvfetcher
+              unstablePkgs.prek
+            ];
+            shellHook = ''
+              printf '%s\n' 'warning: prek hooks are not installed; run `prek install` to install them.' >&2
+            '';
+          };
         };
     };
 }
