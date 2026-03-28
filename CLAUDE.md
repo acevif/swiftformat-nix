@@ -10,8 +10,8 @@ nix develop ./nix/devshell --command nvfetcher -c packages/nvfetcher.toml -o pac
 # Validate all platforms
 nix flake check --all-systems
 
-# Validate the standalone devShell flake
-nix flake check ./nix/devshell
+# Validate the standalone devShell flake on all supported systems
+nix flake check --all-systems ./nix/devshell
 
 # Build a specific version
 nix build .#swiftformat_X_Y_Z
