@@ -3,15 +3,9 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
-    nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-parts = {
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
-    };
-    ignore = {
-      url = "github:acevif/ignore";
-      inputs.flake-parts.follows = "flake-parts";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
@@ -29,11 +23,9 @@
         {
           pkgs,
           system,
-          inputs',
           ...
         }:
         let
-          unstablePkgs = import inputs.nixpkgs-unstable { inherit system; };
           mkSwiftformat = args: pkgs.callPackage ./packages/mkSwiftformat.nix args;
           versioned = {
             swiftformat_0_47_4 = mkSwiftformat {
@@ -1113,18 +1105,6 @@
           );
 
           formatter = pkgs.nixfmt;
-
-          devShells.default = pkgs.mkShell {
-            packages = [
-              inputs'.ignore.packages.default
-              pkgs.gh
-              pkgs.nvfetcher
-              unstablePkgs.prek
-            ];
-            shellHook = ''
-              printf '%s\n' 'warning: prek hooks are not installed; run `prek install` to install them.' >&2
-            '';
-          };
         };
     };
 }
