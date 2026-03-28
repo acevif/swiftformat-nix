@@ -29,7 +29,7 @@
           "nixpkgs"
         ],
         "nixpkgs-unstable": [
-          "nixpkgs-unstable"
+          "nixpkgs-prek"
         ],
         "systems": "systems"
       },
@@ -63,7 +63,7 @@
         "type": "github"
       }
     },
-    "nixpkgs-unstable": {
+    "nixpkgs-prek": {
       "locked": {
         "lastModified": 1774386573,
         "narHash": "sha256-4hAV26quOxdC6iyG7kYaZcM3VOskcPUrdCQd/nx8obc=",
@@ -84,7 +84,7 @@
         "flake-parts": "flake-parts",
         "ignore": "ignore",
         "nixpkgs": "nixpkgs",
-        "nixpkgs-unstable": "nixpkgs-unstable"
+        "nixpkgs-prek": "nixpkgs-prek"
       }
     },
     "systems": {
