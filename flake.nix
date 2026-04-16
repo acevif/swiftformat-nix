@@ -12,9 +12,6 @@
     nixpkgs-prek.url = "github:NixOS/nixpkgs/nixos-unstable";
     ignore = {
       url = "github:acevif/ignore";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.nixpkgs-unstable.follows = "nixpkgs-prek";
-      inputs.flake-parts.follows = "flake-parts";
     };
   };
 
