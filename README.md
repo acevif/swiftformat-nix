@@ -7,7 +7,7 @@ Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages fo
 ### Direct run
 
 ```bash
-nix run github:acevif/swiftformat-nix#swiftformat_0_58 -- --version
+nix run github:acevif/swiftformat-nix#swiftformat_0_58_7 -- --version
 ```
 
 You can also use the rolling alias:

@@ -1131,7 +1131,9 @@
               prekPkgs.prek
             ];
             shellHook = ''
-              printf '%s\n' 'warning: prek hooks are not installed; run `prek install` to install them.' >&2
+              if [ ! -f .git/hooks/pre-commit ]; then
+                printf '%s\n' 'warning: prek hooks are not installed; run `prek install` to install them.' >&2
+              fi
             '';
           };
         };
