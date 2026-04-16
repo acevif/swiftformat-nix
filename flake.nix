@@ -1088,6 +1088,15 @@
                 "aarch64-darwin"
               ];
             };
+            swiftformat_0_61_0 = mkSwiftformat {
+              versionId = "0_61_0";
+              platforms = [
+                "x86_64-linux"
+                "aarch64-linux"
+                "x86_64-darwin"
+                "aarch64-darwin"
+              ];
+            };
           };
         in
         {
@@ -1109,9 +1118,10 @@
               swiftformat_0_58 = versioned.swiftformat_0_58_7;
               swiftformat_0_59 = versioned.swiftformat_0_59_1;
               swiftformat_0_60 = versioned.swiftformat_0_60_1;
-              swiftformat_0 = versioned.swiftformat_0_60_1;
-              swiftformat = versioned.swiftformat_0_60_1;
-              default = versioned.swiftformat_0_60_1;
+              swiftformat_0_61 = versioned.swiftformat_0_61_0;
+              swiftformat_0 = versioned.swiftformat_0_61_0;
+              swiftformat = versioned.swiftformat_0_61_0;
+              default = versioned.swiftformat_0_61_0;
             }
           );
 

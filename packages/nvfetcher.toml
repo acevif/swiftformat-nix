@@ -1593,3 +1593,18 @@ fetch.url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/$ver/LIC
 src.manual = "0.60.1"
 fetch.url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/$ver/LICENSE.md"
 
+[swiftformat-0_61_0-darwin]
+src.manual = "0.61.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat.zip"
+
+[swiftformat-0_61_0-linux-x86_64]
+src.manual = "0.61.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux.zip"
+
+[swiftformat-0_61_0-linux-aarch64]
+src.manual = "0.61.0"
+fetch.url = "https://github.com/nicklockwood/SwiftFormat/releases/download/$ver/swiftformat_linux_aarch64.zip"
+
+[swiftformat-0_61_0-license]
+src.manual = "0.61.0"
+fetch.url = "https://raw.githubusercontent.com/nicklockwood/SwiftFormat/$ver/LICENSE.md"

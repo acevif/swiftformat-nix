@@ -7,7 +7,7 @@ Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages fo
 ### Direct run
 
 ```bash
-nix run github:acevif/swiftformat-nix#swiftformat_0_60_1 -- --version
+nix run github:acevif/swiftformat-nix#swiftformat_0_58 -- --version
 ```
 
 You can also use the rolling alias:
@@ -32,7 +32,7 @@ nix run github:acevif/swiftformat-nix#swiftformat -- --version
     in {
       devShells.${system}.default = pkgs.mkShell {
         packages = [
-          swiftformat-nix.packages.${system}.swiftformat_0_60_1
+          swiftformat-nix.packages.${system}.swiftformat
         ];
       };
     };
@@ -49,13 +49,14 @@ swiftformat --version
 ### nix profile install
 
 ```bash
-nix profile install github:acevif/swiftformat-nix#swiftformat_0_60_1
+nix profile install github:acevif/swiftformat-nix#swiftformat_0_61_0
 ```
 
 ## Available Packages
 
 ### Aliases
 
+- `swiftformat_0_61` — 0.61.x latest (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat_0_60` — 0.60.x latest (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat_0_59` — 0.59.x latest (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat_0_58` — 0.58.x latest (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
@@ -76,6 +77,7 @@ nix profile install github:acevif/swiftformat-nix#swiftformat_0_60_1
 
 ### Versions
 
+- `swiftformat_0_61_0` — SwiftFormat 0.61.0 (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat_0_60_1` — SwiftFormat 0.60.1 (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat_0_60_0` — SwiftFormat 0.60.0 (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
 - `swiftformat_0_59_1` — SwiftFormat 0.59.1 (`x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, `aarch64-darwin`)
