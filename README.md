@@ -6,14 +6,30 @@ Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages fo
 
 ### Direct run
 
+Bash:
+
 ```bash
 nix run github:acevif/swiftformat-nix#swiftformat_0_58_7 -- --version
 ```
 
+Zsh:
+
+```zsh
+nix run github:acevif/swiftformat-nix\#swiftformat_0_58_7 -- --version
+```
+
 You can also use the rolling alias:
+
+Bash:
 
 ```bash
 nix run github:acevif/swiftformat-nix#swiftformat -- --version
+```
+
+Zsh:
+
+```zsh
+nix run github:acevif/swiftformat-nix\#swiftformat -- --version
 ```
 
 ### As a flake input
@@ -48,8 +64,16 @@ swiftformat --version
 
 ### nix profile install
 
+Bash:
+
 ```bash
 nix profile install github:acevif/swiftformat-nix#swiftformat_0_61_0
+```
+
+Zsh:
+
+```zsh
+nix profile install github:acevif/swiftformat-nix\#swiftformat_0_61_0
 ```
 
 ## Available Packages
