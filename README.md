@@ -62,18 +62,18 @@ nix develop
 swiftformat --version
 ```
 
-### nix profile install
+### nix profile add
 
 Bash:
 
 ```bash
-nix profile install github:acevif/swiftformat-nix#swiftformat_0_61_0
+nix profile add github:acevif/swiftformat-nix#swiftformat_0_61_0
 ```
 
 Zsh:
 
 ```zsh
-nix profile install github:acevif/swiftformat-nix\#swiftformat_0_61_0
+nix profile add github:acevif/swiftformat-nix\#swiftformat_0_61_0
 ```
 
 ## Available Packages
